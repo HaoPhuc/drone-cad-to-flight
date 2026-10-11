@@ -9,9 +9,3 @@ Objectives:
    - Try multiple control systems and compare
    - Compare the efficiency between traditional control systems to reinforcement learning algorithms
 
-2. For tokamak design:
-   - Design the divertor cassette
-   - Design the magnets
-   - Design the vacuum vessel
-   - Design the blanket cryostat
-   - Assemble the parts
