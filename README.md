@@ -7,3 +7,4 @@ Objectives:
    - Try multiple control systems and compare
    - Compare the efficiency between traditional control systems to reinforcement learning algorithms
 
+nghiep ngu
