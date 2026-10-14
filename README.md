@@ -1,10 +1,6 @@
 Objectives:
-1. For robot arm(s):
-   - Pick up 1 simple object using 1 arm
-   - Pick up big objects using 2+ arms
-   - Move big objects using multiple arms
-   - Find the safe and optimal region of parameters for operating
-   - Try multiple control systems and compare
-   - Compare the efficiency between traditional control systems to reinforcement learning algorithms
+- CAD a drone
+- Import into simspace multibodies and simulate using simulink
+- Find safe and optimize region of parameters for operating the drone
 
 nghiep ngu
