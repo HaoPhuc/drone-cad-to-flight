@@ -1,0 +1,41 @@
+{
+  "MaskDefaults":{
+    "DialogControl":{
+      "ControlOptions":{
+        "AlignPrompts":"off",
+        "Enabled":"on",
+        "Expand":"off",
+        "HorizontalStretch":"on",
+        "Orientation":"horizontal",
+        "PromptLocation":"top",
+        "Row":"new",
+        "Scale":"linear",
+        "ShowFilter":"on",
+        "ShowParameterName":"on",
+        "TextType":"Plain Text",
+        "Visible":"on",
+        "WordWrap":"on"
+      }
+    },
+    "Display":{
+      "IconFrame":"on",
+      "IconOpaque":"opaque",
+      "IconRotate":"none",
+      "IconUnits":"autoscale",
+      "PortRotate":"default",
+      "RunInitForIconRedraw":"analyze"
+    },
+    "MaskParameter":{
+      "Enabled":"on",
+      "Evaluate":"on",
+      "Internal":"off",
+      "NeverSave":"off",
+      "ReadOnly":"off",
+      "ToolTip":"on",
+      "Tunable":"on",
+      "Visible":"on"
+    },
+    "SelfModifiable":"off"
+  },
+  "_mw_element_name":"BlockDiagramDefaults"
+}

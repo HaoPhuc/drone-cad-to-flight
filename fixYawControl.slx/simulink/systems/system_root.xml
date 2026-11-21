@@ -1,0 +1,3223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<System>
+  <P Name="ReportName">simulink-default.rpt</P>
+  <P Name="SIDHighWatermark">235</P>
+  <Block BlockType="Reference" Name="6-DOF Joint" SID="37">
+    <PortCounts lconn="1" rconn="3"/>
+    <P Name="Position">[-125, 352, -65, 408]</P>
+    <P Name="ZOrder">324</P>
+    <P Name="BackgroundColor">automatic</P>
+    <P Name="LibraryVersion">26.21</P>
+    <P Name="SourceBlock">sm_lib/Joints/6-DOF Joint</P>
+    <P Name="SourceType">6-DOF Joint</P>
+    <InstanceData>
+      <P Name="LogSimulationData">off</P>
+      <P Name="SimscapeInstrumentationLogging">off</P>
+      <P Name="SimscapeInstrumentationVariables" Ref="bdmxdata:SimscapeInstrumentationVariables_37"/>
+      <P Name="JointMode">Normal</P>
+      <P Name="CompositeWrenchDir">FollowerOnBase</P>
+      <P Name="CompositeWrenchFrame">BaseFrame</P>
+      <P Name="SenseConstraintForce">off</P>
+      <P Name="SenseConstraintTorque">off</P>
+      <P Name="SenseTotalForce">off</P>
+      <P Name="SenseTotalTorque">off</P>
+      <P Name="PxPositionTargetSpecify">off</P>
+      <P Name="PxPositionTargetPriority">High</P>
+      <P Name="PxPositionTargetValue">0</P>
+      <P Name="PxPositionTargetValue_conf">compiletime</P>
+      <P Name="PxPositionTargetValueUnits">m</P>
+      <P Name="PxVelocityTargetSpecify">off</P>
+      <P Name="PxVelocityTargetPriority">High</P>
+      <P Name="PxVelocityTargetValue">0</P>
+      <P Name="PxVelocityTargetValue_conf">compiletime</P>
+      <P Name="PxVelocityTargetValueUnits">m/s</P>
+      <P Name="PxEquilibriumPosition">0</P>
+      <P Name="PxEquilibriumPosition_conf">compiletime</P>
+      <P Name="PxEquilibriumPositionUnits">m</P>
+      <P Name="PxSpringStiffness">0</P>
+      <P Name="PxSpringStiffness_conf">compiletime</P>
+      <P Name="PxSpringStiffnessUnits">N/m</P>
+      <P Name="PxDampingCoefficient">0</P>
+      <P Name="PxDampingCoefficient_conf">compiletime</P>
+      <P Name="PxDampingCoefficientUnits">N/(m/s)</P>
+      <P Name="PxLowerLimitSpecify">off</P>
+      <P Name="PxLowerLimitBound">-1</P>
+      <P Name="PxLowerLimitBound_conf">compiletime</P>
+      <P Name="PxLowerLimitBoundUnits">m</P>
+      <P Name="PxLowerLimitStiffness">1e6</P>
+      <P Name="PxLowerLimitStiffness_conf">compiletime</P>
+      <P Name="PxLowerLimitStiffnessUnits">N/m</P>
+      <P Name="PxLowerLimitDamping">1e3</P>
+      <P Name="PxLowerLimitDamping_conf">compiletime</P>
+      <P Name="PxLowerLimitDampingUnits">N/(m/s)</P>
+      <P Name="PxLowerLimitTransitionRegionWidth">1e-4</P>
+      <P Name="PxLowerLimitTransitionRegionWidth_conf">compiletime</P>
+      <P Name="PxLowerLimitTransitionRegionWidthUnits">m</P>
+      <P Name="PxUpperLimitSpecify">off</P>
+      <P Name="PxUpperLimitBound">1</P>
+      <P Name="PxUpperLimitBound_conf">compiletime</P>
+      <P Name="PxUpperLimitBoundUnits">m</P>
+      <P Name="PxUpperLimitStiffness">1e6</P>
+      <P Name="PxUpperLimitStiffness_conf">compiletime</P>
+      <P Name="PxUpperLimitStiffnessUnits">N/m</P>
+      <P Name="PxUpperLimitDamping">1e3</P>
+      <P Name="PxUpperLimitDamping_conf">compiletime</P>
+      <P Name="PxUpperLimitDampingUnits">N/(m/s)</P>
+      <P Name="PxUpperLimitTransitionRegionWidth">1e-4</P>
+      <P Name="PxUpperLimitTransitionRegionWidth_conf">compiletime</P>
+      <P Name="PxUpperLimitTransitionRegionWidthUnits">m</P>
+      <P Name="PxTorqueActuationMode">NoTorque</P>
+      <P Name="PxMotionActuationMode">ComputedMotion</P>
+      <P Name="PxSensePosition">off</P>
+      <P Name="PxSenseVelocity">off</P>
+      <P Name="PxSenseAcceleration">off</P>
+      <P Name="PxSenseTorqueForce">off</P>
+      <P Name="PxSenseLowerLimitTorqueForce">off</P>
+      <P Name="PxSenseUpperLimitTorqueForce">off</P>
+      <P Name="PyPositionTargetSpecify">off</P>
+      <P Name="PyPositionTargetPriority">High</P>
+      <P Name="PyPositionTargetValue">0</P>
+      <P Name="PyPositionTargetValue_conf">compiletime</P>
+      <P Name="PyPositionTargetValueUnits">m</P>
+      <P Name="PyVelocityTargetSpecify">off</P>
+      <P Name="PyVelocityTargetPriority">High</P>
+      <P Name="PyVelocityTargetValue">0</P>
+      <P Name="PyVelocityTargetValue_conf">compiletime</P>
+      <P Name="PyVelocityTargetValueUnits">m/s</P>
+      <P Name="PyEquilibriumPosition">0</P>
+      <P Name="PyEquilibriumPosition_conf">compiletime</P>
+      <P Name="PyEquilibriumPositionUnits">m</P>
+      <P Name="PySpringStiffness">0</P>
+      <P Name="PySpringStiffness_conf">compiletime</P>
+      <P Name="PySpringStiffnessUnits">N/m</P>
+      <P Name="PyDampingCoefficient">0</P>
+      <P Name="PyDampingCoefficient_conf">compiletime</P>
+      <P Name="PyDampingCoefficientUnits">N/(m/s)</P>
+      <P Name="PyLowerLimitSpecify">off</P>
+      <P Name="PyLowerLimitBound">-1</P>
+      <P Name="PyLowerLimitBound_conf">compiletime</P>
+      <P Name="PyLowerLimitBoundUnits">m</P>
+      <P Name="PyLowerLimitStiffness">1e6</P>
+      <P Name="PyLowerLimitStiffness_conf">compiletime</P>
+      <P Name="PyLowerLimitStiffnessUnits">N/m</P>
+      <P Name="PyLowerLimitDamping">1e3</P>
+      <P Name="PyLowerLimitDamping_conf">compiletime</P>
+      <P Name="PyLowerLimitDampingUnits">N/(m/s)</P>
+      <P Name="PyLowerLimitTransitionRegionWidth">1e-4</P>
+      <P Name="PyLowerLimitTransitionRegionWidth_conf">compiletime</P>
+      <P Name="PyLowerLimitTransitionRegionWidthUnits">m</P>
+      <P Name="PyUpperLimitSpecify">off</P>
+      <P Name="PyUpperLimitBound">1</P>
+      <P Name="PyUpperLimitBound_conf">compiletime</P>
+      <P Name="PyUpperLimitBoundUnits">m</P>
+      <P Name="PyUpperLimitStiffness">1e6</P>
+      <P Name="PyUpperLimitStiffness_conf">compiletime</P>
+      <P Name="PyUpperLimitStiffnessUnits">N/m</P>
+      <P Name="PyUpperLimitDamping">1e3</P>
+      <P Name="PyUpperLimitDamping_conf">compiletime</P>
+      <P Name="PyUpperLimitDampingUnits">N/(m/s)</P>
+      <P Name="PyUpperLimitTransitionRegionWidth">1e-4</P>
+      <P Name="PyUpperLimitTransitionRegionWidth_conf">compiletime</P>
+      <P Name="PyUpperLimitTransitionRegionWidthUnits">m</P>
+      <P Name="PyTorqueActuationMode">NoTorque</P>
+      <P Name="PyMotionActuationMode">ComputedMotion</P>
+      <P Name="PySensePosition">off</P>
+      <P Name="PySenseVelocity">off</P>
+      <P Name="PySenseAcceleration">off</P>
+      <P Name="PySenseTorqueForce">off</P>
+      <P Name="PySenseLowerLimitTorqueForce">off</P>
+      <P Name="PySenseUpperLimitTorqueForce">off</P>
+      <P Name="PzPositionTargetSpecify">off</P>
+      <P Name="PzPositionTargetPriority">High</P>
+      <P Name="PzPositionTargetValue">0</P>
+      <P Name="PzPositionTargetValue_conf">compiletime</P>
+      <P Name="PzPositionTargetValueUnits">m</P>
+      <P Name="PzVelocityTargetSpecify">off</P>
+      <P Name="PzVelocityTargetPriority">High</P>
+      <P Name="PzVelocityTargetValue">0</P>
+      <P Name="PzVelocityTargetValue_conf">compiletime</P>
+      <P Name="PzVelocityTargetValueUnits">m/s</P>
+      <P Name="PzEquilibriumPosition">0</P>
+      <P Name="PzEquilibriumPosition_conf">compiletime</P>
+      <P Name="PzEquilibriumPositionUnits">m</P>
+      <P Name="PzSpringStiffness">0</P>
+      <P Name="PzSpringStiffness_conf">compiletime</P>
+      <P Name="PzSpringStiffnessUnits">N/m</P>
+      <P Name="PzDampingCoefficient">0</P>
+      <P Name="PzDampingCoefficient_conf">compiletime</P>
+      <P Name="PzDampingCoefficientUnits">N/(m/s)</P>
+      <P Name="PzLowerLimitSpecify">off</P>
+      <P Name="PzLowerLimitBound">-1</P>
+      <P Name="PzLowerLimitBound_conf">compiletime</P>
+      <P Name="PzLowerLimitBoundUnits">m</P>
+      <P Name="PzLowerLimitStiffness">1e6</P>
+      <P Name="PzLowerLimitStiffness_conf">compiletime</P>
+      <P Name="PzLowerLimitStiffnessUnits">N/m</P>
+      <P Name="PzLowerLimitDamping">1e3</P>
+      <P Name="PzLowerLimitDamping_conf">compiletime</P>
+      <P Name="PzLowerLimitDampingUnits">N/(m/s)</P>
+      <P Name="PzLowerLimitTransitionRegionWidth">1e-4</P>
+      <P Name="PzLowerLimitTransitionRegionWidth_conf">compiletime</P>
+      <P Name="PzLowerLimitTransitionRegionWidthUnits">m</P>
+      <P Name="PzUpperLimitSpecify">off</P>
+      <P Name="PzUpperLimitBound">1</P>
+      <P Name="PzUpperLimitBound_conf">compiletime</P>
+      <P Name="PzUpperLimitBoundUnits">m</P>
+      <P Name="PzUpperLimitStiffness">1e6</P>
+      <P Name="PzUpperLimitStiffness_conf">compiletime</P>
+      <P Name="PzUpperLimitStiffnessUnits">N/m</P>
+      <P Name="PzUpperLimitDamping">1e3</P>
+      <P Name="PzUpperLimitDamping_conf">compiletime</P>
+      <P Name="PzUpperLimitDampingUnits">N/(m/s)</P>
+      <P Name="PzUpperLimitTransitionRegionWidth">1e-4</P>
+      <P Name="PzUpperLimitTransitionRegionWidth_conf">compiletime</P>
+      <P Name="PzUpperLimitTransitionRegionWidthUnits">m</P>
+      <P Name="PzTorqueActuationMode">NoTorque</P>
+      <P Name="PzMotionActuationMode">ComputedMotion</P>
+      <P Name="PzSensePosition">on</P>
+      <P Name="PzSenseVelocity">off</P>
+      <P Name="PzSenseAcceleration">off</P>
+      <P Name="PzSenseTorqueForce">off</P>
+      <P Name="PzSenseLowerLimitTorqueForce">off</P>
+      <P Name="PzSenseUpperLimitTorqueForce">off</P>
+      <P Name="SphPositionTargetSpecify">off</P>
+      <P Name="SphPositionTargetPriority">High</P>
+      <P Name="SphPositionTargetRotationMethod">None</P>
+      <P Name="SphPositionTargetFollAlignAxisA">+X</P>
+      <P Name="SphPositionTargetBaseAlignAxisA">+Y</P>
+      <P Name="SphPositionTargetFollAlignAxisB">+Y</P>
+      <P Name="SphPositionTargetBaseAlignAxisB">+Z</P>
+      <P Name="SphPositionTargetRotationStandardAxis">+Z</P>
+      <P Name="SphPositionTargetRotationAngle">0</P>
+      <P Name="SphPositionTargetRotationAngle_conf">compiletime</P>
+      <P Name="SphPositionTargetRotationAngleUnits">deg</P>
+      <P Name="SphPositionTargetRotationArbitraryAxis">[0 0 1]</P>
+      <P Name="SphPositionTargetRotationArbitraryAxis_conf">compiletime</P>
+      <P Name="SphPositionTargetRotationSequenceAxes">FollowerAxes</P>
+      <P Name="SphPositionTargetRotationSequence">XYX</P>
+      <P Name="SphPositionTargetRotationSequenceAngles">[0 0 0]</P>
+      <P Name="SphPositionTargetRotationSequenceAngles_conf">compiletime</P>
+      <P Name="SphPositionTargetRotationSequenceAnglesUnits">deg</P>
+      <P Name="SphPositionTargetRotationMatrix">[1 0 0;0 1 0;0 0 1]</P>
+      <P Name="SphPositionTargetRotationMatrix_conf">compiletime</P>
+      <P Name="SphPositionTargetQuaternion">[1 0 0 0]</P>
+      <P Name="SphPositionTargetQuaternion_conf">compiletime</P>
+      <P Name="SphVelocityTargetSpecify">off</P>
+      <P Name="SphVelocityTargetPriority">High</P>
+      <P Name="SphVelocityTargetValue">[0 0 0]</P>
+      <P Name="SphVelocityTargetValue_conf">compiletime</P>
+      <P Name="SphVelocityTargetValueUnits">deg/s</P>
+      <P Name="SphVelocityTargetInFollowerFrame">on</P>
+      <P Name="SphEqPosRotationMethod">None</P>
+      <P Name="SphEqPosFollAlignAxisA">+X</P>
+      <P Name="SphEqPosBaseAlignAxisA">+Y</P>
+      <P Name="SphEqPosFollAlignAxisB">+Y</P>
+      <P Name="SphEqPosBaseAlignAxisB">+Z</P>
+      <P Name="SphEqPosRotationStandardAxis">+Z</P>
+      <P Name="SphEqPosRotationAngle">0</P>
+      <P Name="SphEqPosRotationAngle_conf">compiletime</P>
+      <P Name="SphEqPosRotationAngleUnits">deg</P>
+      <P Name="SphEqPosRotationArbitraryAxis">[0 0 1]</P>
+      <P Name="SphEqPosRotationArbitraryAxis_conf">compiletime</P>
+      <P Name="SphEqPosRotationSequenceAxes">FollowerAxes</P>
+      <P Name="SphEqPosRotationSequence">XYX</P>
+      <P Name="SphEqPosRotationSequenceAngles">[0 0 0]</P>
+      <P Name="SphEqPosRotationSequenceAngles_conf">compiletime</P>
+      <P Name="SphEqPosRotationSequenceAnglesUnits">deg</P>
+      <P Name="SphEqPosRotationMatrix">[1 0 0;0 1 0;0 0 1]</P>
+      <P Name="SphEqPosRotationMatrix_conf">compiletime</P>
+      <P Name="SphEqPosQuaternion">[1 0 0 0]</P>
+      <P Name="SphEqPosQuaternion_conf">compiletime</P>
+      <P Name="SphSpringStiffness">0</P>
+      <P Name="SphSpringStiffness_conf">compiletime</P>
+      <P Name="SphSpringStiffnessUnits">N*m/deg</P>
+      <P Name="SphDampingCoefficient">0</P>
+      <P Name="SphDampingCoefficient_conf">compiletime</P>
+      <P Name="SphDampingCoefficientUnits">N*m/(deg/s)</P>
+      <P Name="SphLowerLimitSpecify">off</P>
+      <P Name="SphLowerLimitBound">15</P>
+      <P Name="SphLowerLimitBound_conf">compiletime</P>
+      <P Name="SphLowerLimitBoundUnits">deg</P>
+      <P Name="SphLowerLimitStiffness">1e4</P>
+      <P Name="SphLowerLimitStiffness_conf">compiletime</P>
+      <P Name="SphLowerLimitStiffnessUnits">N*m/deg</P>
+      <P Name="SphLowerLimitDamping">10</P>
+      <P Name="SphLowerLimitDamping_conf">compiletime</P>
+      <P Name="SphLowerLimitDampingUnits">N*m/(deg/s)</P>
+      <P Name="SphLowerLimitTransitionRegionWidth">0.1</P>
+      <P Name="SphLowerLimitTransitionRegionWidth_conf">compiletime</P>
+      <P Name="SphLowerLimitTransitionRegionWidthUnits">deg</P>
+      <P Name="SphUpperLimitSpecify">off</P>
+      <P Name="SphUpperLimitBound">45</P>
+      <P Name="SphUpperLimitBound_conf">compiletime</P>
+      <P Name="SphUpperLimitBoundUnits">deg</P>
+      <P Name="SphUpperLimitStiffness">1e4</P>
+      <P Name="SphUpperLimitStiffness_conf">compiletime</P>
+      <P Name="SphUpperLimitStiffnessUnits">N*m/deg</P>
+      <P Name="SphUpperLimitDamping">10</P>
+      <P Name="SphUpperLimitDamping_conf">compiletime</P>
+      <P Name="SphUpperLimitDampingUnits">N*m/(deg/s)</P>
+      <P Name="SphUpperLimitTransitionRegionWidth">0.1</P>
+      <P Name="SphUpperLimitTransitionRegionWidth_conf">compiletime</P>
+      <P Name="SphUpperLimitTransitionRegionWidthUnits">deg</P>
+      <P Name="SphTorqueActuationMode">NoTorque</P>
+      <P Name="SphActuateTorqueX">off</P>
+      <P Name="SphActuateTorqueY">off</P>
+      <P Name="SphActuateTorqueZ">off</P>
+      <P Name="SphActuateTorque">off</P>
+      <P Name="SphActuationFrame">BaseFrame</P>
+      <P Name="SphSensePosition">on</P>
+      <P Name="SphSenseVelocityX">off</P>
+      <P Name="SphSenseVelocityY">off</P>
+      <P Name="SphSenseVelocityZ">off</P>
+      <P Name="SphSenseVelocity">off</P>
+      <P Name="SphSenseAccelerationX">off</P>
+      <P Name="SphSenseAccelerationY">off</P>
+      <P Name="SphSenseAccelerationZ">off</P>
+      <P Name="SphSenseAcceleration">off</P>
+      <P Name="SphSenseLowerLimitTorqueMag">off</P>
+      <P Name="SphSenseUpperLimitTorqueMag">off</P>
+      <P Name="SphSensingFrame">BaseFrame</P>
+    </InstanceData>
+    <PortProperties>
+      <Port Type="lconn" Index="1">
+        <P Name="PortId">B</P>
+      </Port>
+      <Port Type="rconn" Index="1">
+        <P Name="PortId">F</P>
+      </Port>
+      <Port Type="rconn" Index="2">
+        <P Name="PortId">pz_out</P>
+      </Port>
+      <Port Type="rconn" Index="3">
+        <P Name="PortId">Q_out</P>
+      </Port>
+    </PortProperties>
+  </Block>
+  <Block BlockType="Reference" Name="Aerodynamic&#xA;Propeller" SID="98">
+    <PortCounts lconn="2" rconn="3"/>
+    <P Name="Position">[690, 105, 750, 165]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="BackgroundColor">automatic</P>
+    <P Name="LibraryVersion">26001000.2</P>
+    <P Name="SourceBlock">sdl_lib/Engines &amp; Motors/Aerodynamic
+Propeller</P>
+    <P Name="SourceType">Aerodynamic
+Propeller</P>
+    <InstanceData>
+      <P Name="LogSimulationData">off</P>
+      <P Name="SimscapeInstrumentationLogging">off</P>
+      <P Name="SimscapeInstrumentationVariables" Ref="bdmxdata:SimscapeInstrumentationVariables_98"/>
+      <P Name="SourceFile">sdl.engines.aerodynamic_propeller</P>
+      <P Name="SscBlockScalableBuild">off</P>
+      <P Name="ComponentPath">sdl.engines.aerodynamic_propeller</P>
+      <P Name="ComponentVariants">[&quot;sdl.engines.aerodynamic_propeller&quot;]</P>
+      <P Name="ComponentVariantNames">[&quot;aerodynamic_propeller&quot;]</P>
+      <P Name="ClassName">aerodynamic_propeller</P>
+      <P Name="SchemaVersion">1</P>
+      <P Name="parameterization">sdl.enum.AerodynamicPropellerParameterization.Constant</P>
+      <P Name="parameterization_unit">1</P>
+      <P Name="parameterization_conf">compiletime</P>
+      <P Name="enable_collective_pitch_control">false</P>
+      <P Name="enable_collective_pitch_control_unit">1</P>
+      <P Name="enable_collective_pitch_control_conf">compiletime</P>
+      <P Name="enable_transverse_flow">false</P>
+      <P Name="enable_transverse_flow_unit">1</P>
+      <P Name="enable_transverse_flow_conf">compiletime</P>
+      <P Name="direction">sdl.enum.PropellerDirection.Positive</P>
+      <P Name="direction_unit">1</P>
+      <P Name="direction_conf">compiletime</P>
+      <P Name="root_pitch">0</P>
+      <P Name="root_pitch_unit">deg</P>
+      <P Name="root_pitch_conf">compiletime</P>
+      <P Name="D">0.2</P>
+      <P Name="D_unit">m</P>
+      <P Name="D_conf">compiletime</P>
+      <P Name="kt_const">1.529</P>
+      <P Name="kt_const_unit">1</P>
+      <P Name="kt_const_conf">compiletime</P>
+      <P Name="kp_const">0.05</P>
+      <P Name="kp_const_unit">1</P>
+      <P Name="kp_const_conf">compiletime</P>
+      <P Name="kt_poly_fixed">[.002, .0006, -.0509, .0617]</P>
+      <P Name="kt_poly_fixed_unit">1</P>
+      <P Name="kt_poly_fixed_conf">compiletime</P>
+      <P Name="kp_poly_fixed">[-.0752, .0577, -.0622, .16]</P>
+      <P Name="kp_poly_fixed_unit">1</P>
+      <P Name="kp_poly_fixed_conf">compiletime</P>
+      <P Name="pitch_angle_TLU">[-15, 15, 25, 35, 45]</P>
+      <P Name="pitch_angle_TLU_unit">deg</P>
+      <P Name="pitch_angle_TLU_conf">compiletime</P>
+      <P Name="kt_poly_TLU">[.0002, -.00041, -.036, .03; .00026, -.00056, -.048, .04; .002, .00063, -.051, .062; .0014, -.0016, -.048, .087; .00087, -.0036, -.041, .12]</P>
+      <P Name="kt_poly_TLU_unit">1</P>
+      <P Name="kt_poly_TLU_conf">compiletime</P>
+      <P Name="kp_poly_TLU">[-.1, .031, .0055, .088; -.081, -.025, .0044, .07; -.075, .058, -.062, .16; -.052, .065, -.08, .3; -.031, .057, -.069, .4]</P>
+      <P Name="kp_poly_TLU_unit">1</P>
+      <P Name="kp_poly_TLU_conf">compiletime</P>
+      <P Name="J_TLU">[.01, .3, .625, 1.55, 2, 2.6]</P>
+      <P Name="J_TLU_unit">1</P>
+      <P Name="J_TLU_conf">compiletime</P>
+      <P Name="kt_TLU_1D">[.0614, .0473, .0318, -.0127, -.0343, -.063]</P>
+      <P Name="kt_TLU_1D_unit">1</P>
+      <P Name="kt_TLU_1D_conf">compiletime</P>
+      <P Name="kp_TLU_1D">[.1496, .1314, .116, -.0521, -.1503, -.2813]</P>
+      <P Name="kp_TLU_1D_unit">1</P>
+      <P Name="kp_TLU_1D_conf">compiletime</P>
+      <P Name="kt_TLU_2D">[.00019, .013, .0048, -.017, -.03, -.045; .00039, .025, .0096, -.037, -.06, -.09; .00061, .047, .032, -.013, -.034, -.063; .00086, .072, .057, .014, -.0076, -.036; .12, .104, .09, .049, .029, .0019]</P>
+      <P Name="kt_TLU_2D_unit">1</P>
+      <P Name="kt_TLU_2D_conf">compiletime</P>
+      <P Name="kp_TLU_2D">[.029, .029, .016, .06, .009, -.16; .059, .054, .031, -.12, -.19, -.29; .15, .13, .12, -.052, -.15, -.28; .26, .24, .22, .097, -.04, -.25; .39, .39, .38, .32, .24, .062]</P>
+      <P Name="kp_TLU_2D_unit">1</P>
+      <P Name="kp_TLU_2D_conf">compiletime</P>
+      <P Name="beta_TLU">linspace(0, 360, 10)</P>
+      <P Name="beta_TLU_unit">deg</P>
+      <P Name="beta_TLU_conf">compiletime</P>
+      <P Name="Ct_TLU_1D">0.035 * sind(linspace(0, 360, 10) - 200)</P>
+      <P Name="Ct_TLU_1D_unit">1</P>
+      <P Name="Ct_TLU_1D_conf">compiletime</P>
+      <P Name="Cq_TLU_1D">0.010 * sind(linspace(0, 360, 10) - 200)</P>
+      <P Name="Cq_TLU_1D_unit">1</P>
+      <P Name="Cq_TLU_1D_conf">compiletime</P>
+      <P Name="Ct_TLU_2D">[0.01 * sind(linspace(0, 360, 10) - 200); 0.020 * sind(linspace(0, 360, 10) - 200); 0.035 * sind(linspace(0, 360, 10) - 200); 0.04 * sind(linspace(0, 360, 10) - 200); 0.06 * sind(linspace(0, 360, 10) - 200)]</P>
+      <P Name="Ct_TLU_2D_unit">1</P>
+      <P Name="Ct_TLU_2D_conf">compiletime</P>
+      <P Name="Cq_TLU_2D">[0.0005 * sind(linspace(0, 360, 10) - 200); 0.0015 * sind(linspace(0, 360, 10) - 200); 0.0025 * sind(linspace(0, 360, 10) - 200); 0.0035 * sind(linspace(0, 360, 10) - 200); 0.0045 * sind(linspace(0, 360, 10) - 200)]</P>
+      <P Name="Cq_TLU_2D_unit">1</P>
+      <P Name="Cq_TLU_2D_conf">compiletime</P>
+      <P Name="n_blades">2</P>
+      <P Name="n_blades_unit">1</P>
+      <P Name="n_blades_conf">compiletime</P>
+      <P Name="radial_TLU">[.1, .12, .2, .4, .6, .8, 1]</P>
+      <P Name="radial_TLU_unit">1</P>
+      <P Name="radial_TLU_conf">compiletime</P>
+      <P Name="twist_TLU">[30, 35, 50, 30, 20, 15, 10]</P>
+      <P Name="twist_TLU_unit">deg</P>
+      <P Name="twist_TLU_conf">compiletime</P>
+      <P Name="chord_TLU">[.0676, .0666, .0824, .1025, .0885, .0598, .0133]</P>
+      <P Name="chord_TLU_unit">1</P>
+      <P Name="chord_TLU_conf">compiletime</P>
+      <P Name="alpha_TLU">-180 : 10 : 180</P>
+      <P Name="alpha_TLU_unit">deg</P>
+      <P Name="alpha_TLU_conf">compiletime</P>
+      <P Name="Cl_TLU">[.1326, .1326, .1274, .1274, .1274, .1274, .1274; .3626, .3626, .5002, .5002, .5002, .5002, .5002; .5528, .5528, .8007, .8007, .8007, .8007, .8007; .7256, .7256, 1.0125, 1.0125, 1.0125, 1.0125, 1.0125; .8016, .8016, 1.1556, 1.1556, 1.1556, 1.1556, 1.1556; .7873, .7873, 1.1604, 1.1604, 1.1604, 1.1604, 1.1604; .7031, .7031, 1.0493, 1.0493, 1.0493, 1.0493, 1.0493; .5423, .5423, .7973, .7973, .7973, .7973, .7973; .3537, .3537, .4332, .4332, .4332, .4332, .4332; .1155, .1155, -.0376, -.0376, -.0376, -.0376, -.0376; -.1045, -.1045, -.4096, -.4096, -.4096, -.4096, -.4096; -.2999, -.2999, -.672, -.672, -.672, -.672, -.672; -.4401, -.4401, -.9343, -.9343, -.9343, -.9343, -.9343; -.5186, -.5186, -1.0477, -1.0477, -1.0477, -1.0477, -1.0477; -.5303, -.5303, -1.0387, -1.0387, -1.0387, -1.0387, -1.0387; -.5073, -.5073, -.9565, -.9565, -.9565, -.9565, -.9565; -.442, -.442, -.7713, -.7713, -.7713, -.7713, -.7713; -.2658, -.2658, -.4832, -.4832, -.4832, -.4832, -.4832; .4109, .4109, .3629, .3629, .3629, .3629, .3629; 1.1635, 1.1635, 1.3779, 1.3779, 1.3779, 1.3779, 1.3779; 1.2412, 1.2412, 1.4033, 1.4033, 1.4033, 1.4033, 1.4033; .7434, .7434, 1.3453, 1.3453, 1.3453, 1.3453, 1.3453; .7908, .7908, 1.2862, 1.2862, 1.2862, 1.2862, 1.2862; .7525, .7525, 1.1562, 1.1562, 1.1562, 1.1562, 1.1562; .6722, .6722, .9487, .9487, .9487, .9487, .9487; .5324, .5324, .7047, .7047, .7047, .7047, .7047; .3365, .3365, .382, .382, .382, .382, .382; .0529, .0529, -.0229, -.0229, -.0229, -.0229, -.0229; -.2728, -.2728, -.316, -.316, -.316, -.316, -.316; -.4135, -.4135, -.6195, -.6195, -.6195, -.6195, -.6195; -.5087, -.5087, -.7847, -.7847, -.7847, -.7847, -.7847; -.5342, -.5342, -.8419, -.8419, -.8419, -.8419, -.8419; -.5166, -.5166, -.7658, -.7658, -.7658, -.7658, -.7658; -.4321, -.4321, -.5707, -.5707, -.5707, -.5707, -.5707; -.2864, -.2864, -.3098, -.3098, -.3098, -.3098, -.3098; -.1073, -.1073, -.0893, -.0893, -.0893, -.0893, -.0893; .1326, .1326, .1274, .1274, .1274, .1274, .1274]</P>
+      <P Name="Cl_TLU_unit">1</P>
+      <P Name="Cl_TLU_conf">compiletime</P>
+      <P Name="Cd_TLU">[.0055, .0055, .3904, .3904, .3904, .3904, .3904; .0774, .0774, .449, .449, .449, .449, .449; .2412, .2412, .5915, .5915, .5915, .5915, .5915; .4342, .4342, .8307, .8307, .8307, .8307, .8307; .679, .679, 1.0909, 1.0909, 1.0909, 1.0909, 1.0909; .9003, .9003, 1.3868, 1.3868, 1.3868, 1.3868, 1.3868; 1.0825, 1.0825, 1.6565, 1.6565, 1.6565, 1.6565, 1.6565; 1.2281, 1.2281, 1.875, 1.875, 1.875, 1.875, 1.875; 1.3205, 1.3205, 2.017, 2.017, 2.017, 2.017, 2.017; 1.3234, 1.3234, 2.0407, 2.0407, 2.0407, 2.0407, 2.0407; 1.2391, 1.2391, 1.9513, 1.9513, 1.9513, 1.9513, 1.9513; 1.0963, 1.0963, 1.7643, 1.7643, 1.7643, 1.7643, 1.7643; .8978, .8978, 1.5048, 1.5048, 1.5048, 1.5048, 1.5048; .6525, .6525, 1.2281, 1.2281, 1.2281, 1.2281, 1.2281; .4203, .4203, .838, .838, .838, .838, .838; .2428, .2428, .5434, .5434, .5434, .5434, .5434; .0951, .0951, .2517, .2517, .2517, .2517, .2517; .0292, .0292, .0698, .0698, .0698, .0698, .0698; .0148, .0148, .0267, .0267, .0267, .0267, .0267; .0808, .0808, .0509, .0509, .0509, .0509, .0509; .2429, .2429, .1561, .1561, .1561, .1561, .1561; .5019, .5019, .3927, .3927, .3927, .3927, .3927; .7217, .7217, .7438, .7438, .7438, .7438, .7438; .9336, .9336, 1.1277, 1.1277, 1.1277, 1.1277, 1.1277; 1.0984, 1.0984, 1.4838, 1.4838, 1.4838, 1.4838, 1.4838; 1.2274, 1.2274, 1.7877, 1.7877, 1.7877, 1.7877, 1.7877; 1.3016, 1.3016, 1.9779, 1.9779, 1.9779, 1.9779, 1.9779; 1.3305, 1.3305, 2.0516, 2.0516, 2.0516, 2.0516, 2.0516; 1.2889, 1.2889, 1.9974, 1.9974, 1.9974, 1.9974, 1.9974; 1.1677, 1.1677, 1.8463, 1.8463, 1.8463, 1.8463, 1.8463; 1.0076, 1.0076, 1.5699, 1.5699, 1.5699, 1.5699, 1.5699; .8068, .8068, 1.2596, 1.2596, 1.2596, 1.2596, 1.2596; .5688, .5688, .9493, .9493, .9493, .9493, .9493; .3604, .3604, .6154, .6154, .6154, .6154, .6154; .1802, .1802, .5015, .5015, .5015, .5015, .5015; .0699, .0699, .4265, .4265, .4265, .4265, .4265; .0055, .0055, .3904, .3904, .3904, .3904, .3904]</P>
+      <P Name="Cd_TLU_unit">1</P>
+      <P Name="Cd_TLU_conf">compiletime</P>
+      <P Name="interp_method">simscape.enum.interpolation.linear</P>
+      <P Name="interp_method_unit">1</P>
+      <P Name="interp_method_conf">compiletime</P>
+      <P Name="extrap_method">simscape.enum.extrapolation.linear</P>
+      <P Name="extrap_method_unit">1</P>
+      <P Name="extrap_method_conf">compiletime</P>
+      <P Name="n_blade_discretization">10</P>
+      <P Name="n_blade_discretization_unit">1</P>
+      <P Name="n_blade_discretization_conf">compiletime</P>
+      <P Name="n_azimuthal_discretization">10</P>
+      <P Name="n_azimuthal_discretization_unit">1</P>
+      <P Name="n_azimuthal_discretization_conf">compiletime</P>
+      <P Name="density_spec">foundation.enum.constant_variable.constant</P>
+      <P Name="density_spec_unit">1</P>
+      <P Name="density_spec_conf">compiletime</P>
+      <P Name="rho">1.225</P>
+      <P Name="rho_unit">kg/m^3</P>
+      <P Name="rho_conf">compiletime</P>
+      <P Name="rotational_ports">sdl.enum.ConnectionType.PS</P>
+      <P Name="rotational_ports_unit">1</P>
+      <P Name="rotational_ports_conf">compiletime</P>
+      <P Name="translational_ports">sdl.enum.ConnectionType.PS</P>
+      <P Name="translational_ports_unit">1</P>
+      <P Name="translational_ports_conf">compiletime</P>
+      <P Name="model_inertia">false</P>
+      <P Name="model_inertia_unit">1</P>
+      <P Name="model_inertia_conf">compiletime</P>
+      <P Name="propeller_inertia">1</P>
+      <P Name="propeller_inertia_unit">kg*m^2</P>
+      <P Name="propeller_inertia_conf">compiletime</P>
+      <P Name="propeller_mass">10</P>
+      <P Name="propeller_mass_unit">kg</P>
+      <P Name="propeller_mass_conf">compiletime</P>
+      <P Name="efficiency_sensor">false</P>
+      <P Name="efficiency_sensor_unit">1</P>
+      <P Name="efficiency_sensor_conf">compiletime</P>
+      <P Name="n_thr">0.001</P>
+      <P Name="n_thr_unit">Hz</P>
+      <P Name="n_thr_conf">compiletime</P>
+      <P Name="k_thr">0.001</P>
+      <P Name="k_thr_unit">1</P>
+      <P Name="k_thr_conf">compiletime</P>
+      <P Name="P_thr">0.01</P>
+      <P Name="P_thr_unit">W</P>
+      <P Name="P_thr_conf">compiletime</P>
+      <P Name="operation_check">simscape.enum.assert.action.warn</P>
+      <P Name="operation_check_unit">1</P>
+      <P Name="operation_check_conf">compiletime</P>
+      <P Name="expose_port_C">false</P>
+      <P Name="expose_port_C_unit">1</P>
+      <P Name="expose_port_C_conf">compiletime</P>
+      <P Name="w_specify">off</P>
+      <P Name="w_priority">None</P>
+      <P Name="w">0</P>
+      <P Name="w_unit">rad/s</P>
+      <P Name="w_nominal_specify">off</P>
+      <P Name="w_nominal_value">1</P>
+      <P Name="w_nominal_unit">rad/s</P>
+      <P Name="Q_specify">off</P>
+      <P Name="Q_priority">None</P>
+      <P Name="Q">0</P>
+      <P Name="Q_unit">N*m</P>
+      <P Name="Q_nominal_specify">off</P>
+      <P Name="Q_nominal_value">1</P>
+      <P Name="Q_nominal_unit">N*m</P>
+      <P Name="v_specify">off</P>
+      <P Name="v_priority">None</P>
+      <P Name="v">0</P>
+      <P Name="v_unit">m/s</P>
+      <P Name="v_nominal_specify">off</P>
+      <P Name="v_nominal_value">1</P>
+      <P Name="v_nominal_unit">m/s</P>
+      <P Name="thrust_specify">off</P>
+      <P Name="thrust_priority">None</P>
+      <P Name="thrust">0</P>
+      <P Name="thrust_unit">N</P>
+      <P Name="thrust_nominal_specify">off</P>
+      <P Name="thrust_nominal_value">1</P>
+      <P Name="thrust_nominal_unit">N</P>
+    </InstanceData>
+    <PortProperties>
+      <Port Type="lconn" Index="1">
+        <P Name="PortId">Q_out</P>
+      </Port>
+      <Port Type="lconn" Index="2">
+        <P Name="PortId">Th_out</P>
+      </Port>
+      <Port Type="rconn" Index="1">
+        <P Name="PortId">w_in</P>
+      </Port>
+      <Port Type="rconn" Index="2">
+        <P Name="PortId">Va_in</P>
+      </Port>
+      <Port Type="rconn" Index="3">
+        <P Name="PortId">Vv_in</P>
+      </Port>
+    </PortProperties>
+  </Block>
+  <Block BlockType="Reference" Name="Aerodynamic&#xA;Propeller1" SID="109">
+    <PortCounts lconn="2" rconn="3"/>
+    <P Name="Position">[690, 210, 750, 270]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="BackgroundColor">automatic</P>
+    <P Name="LibraryVersion">26001000.2</P>
+    <P Name="SourceBlock">sdl_lib/Engines &amp; Motors/Aerodynamic
+Propeller</P>
+    <P Name="SourceType">Aerodynamic
+Propeller</P>
+    <InstanceData>
+      <P Name="LogSimulationData">off</P>
+      <P Name="SimscapeInstrumentationLogging">off</P>
+      <P Name="SimscapeInstrumentationVariables" Ref="bdmxdata:SimscapeInstrumentationVariables_109"/>
+      <P Name="SourceFile">sdl.engines.aerodynamic_propeller</P>
+      <P Name="SscBlockScalableBuild">off</P>
+      <P Name="ComponentPath">sdl.engines.aerodynamic_propeller</P>
+      <P Name="ComponentVariants">[&quot;sdl.engines.aerodynamic_propeller&quot;]</P>
+      <P Name="ComponentVariantNames">[&quot;aerodynamic_propeller&quot;]</P>
+      <P Name="ClassName">aerodynamic_propeller</P>
+      <P Name="SchemaVersion">1</P>
+      <P Name="parameterization">sdl.enum.AerodynamicPropellerParameterization.Constant</P>
+      <P Name="parameterization_unit">1</P>
+      <P Name="parameterization_conf">compiletime</P>
+      <P Name="enable_collective_pitch_control">false</P>
+      <P Name="enable_collective_pitch_control_unit">1</P>
+      <P Name="enable_collective_pitch_control_conf">compiletime</P>
+      <P Name="enable_transverse_flow">false</P>
+      <P Name="enable_transverse_flow_unit">1</P>
+      <P Name="enable_transverse_flow_conf">compiletime</P>
+      <P Name="direction">sdl.enum.PropellerDirection.Negative</P>
+      <P Name="direction_unit">1</P>
+      <P Name="direction_conf">compiletime</P>
+      <P Name="root_pitch">0</P>
+      <P Name="root_pitch_unit">deg</P>
+      <P Name="root_pitch_conf">compiletime</P>
+      <P Name="D">0.2</P>
+      <P Name="D_unit">m</P>
+      <P Name="D_conf">compiletime</P>
+      <P Name="kt_const">1.529</P>
+      <P Name="kt_const_unit">1</P>
+      <P Name="kt_const_conf">compiletime</P>
+      <P Name="kp_const">0.05</P>
+      <P Name="kp_const_unit">1</P>
+      <P Name="kp_const_conf">compiletime</P>
+      <P Name="kt_poly_fixed">[.002, .0006, -.0509, .0617]</P>
+      <P Name="kt_poly_fixed_unit">1</P>
+      <P Name="kt_poly_fixed_conf">compiletime</P>
+      <P Name="kp_poly_fixed">[-.0752, .0577, -.0622, .16]</P>
+      <P Name="kp_poly_fixed_unit">1</P>
+      <P Name="kp_poly_fixed_conf">compiletime</P>
+      <P Name="pitch_angle_TLU">[-15, 15, 25, 35, 45]</P>
+      <P Name="pitch_angle_TLU_unit">deg</P>
+      <P Name="pitch_angle_TLU_conf">compiletime</P>
+      <P Name="kt_poly_TLU">[.0002, -.00041, -.036, .03; .00026, -.00056, -.048, .04; .002, .00063, -.051, .062; .0014, -.0016, -.048, .087; .00087, -.0036, -.041, .12]</P>
+      <P Name="kt_poly_TLU_unit">1</P>
+      <P Name="kt_poly_TLU_conf">compiletime</P>
+      <P Name="kp_poly_TLU">[-.1, .031, .0055, .088; -.081, -.025, .0044, .07; -.075, .058, -.062, .16; -.052, .065, -.08, .3; -.031, .057, -.069, .4]</P>
+      <P Name="kp_poly_TLU_unit">1</P>
+      <P Name="kp_poly_TLU_conf">compiletime</P>
+      <P Name="J_TLU">[.01, .3, .625, 1.55, 2, 2.6]</P>
+      <P Name="J_TLU_unit">1</P>
+      <P Name="J_TLU_conf">compiletime</P>
+      <P Name="kt_TLU_1D">[.0614, .0473, .0318, -.0127, -.0343, -.063]</P>
+      <P Name="kt_TLU_1D_unit">1</P>
+      <P Name="kt_TLU_1D_conf">compiletime</P>
+      <P Name="kp_TLU_1D">[.1496, .1314, .116, -.0521, -.1503, -.2813]</P>
+      <P Name="kp_TLU_1D_unit">1</P>
+      <P Name="kp_TLU_1D_conf">compiletime</P>
+      <P Name="kt_TLU_2D">[.00019, .013, .0048, -.017, -.03, -.045; .00039, .025, .0096, -.037, -.06, -.09; .00061, .047, .032, -.013, -.034, -.063; .00086, .072, .057, .014, -.0076, -.036; .12, .104, .09, .049, .029, .0019]</P>
+      <P Name="kt_TLU_2D_unit">1</P>
+      <P Name="kt_TLU_2D_conf">compiletime</P>
+      <P Name="kp_TLU_2D">[.029, .029, .016, .06, .009, -.16; .059, .054, .031, -.12, -.19, -.29; .15, .13, .12, -.052, -.15, -.28; .26, .24, .22, .097, -.04, -.25; .39, .39, .38, .32, .24, .062]</P>
+      <P Name="kp_TLU_2D_unit">1</P>
+      <P Name="kp_TLU_2D_conf">compiletime</P>
+      <P Name="beta_TLU">linspace(0, 360, 10)</P>
+      <P Name="beta_TLU_unit">deg</P>
+      <P Name="beta_TLU_conf">compiletime</P>
+      <P Name="Ct_TLU_1D">0.035 * sind(linspace(0, 360, 10) - 200)</P>
+      <P Name="Ct_TLU_1D_unit">1</P>
+      <P Name="Ct_TLU_1D_conf">compiletime</P>
+      <P Name="Cq_TLU_1D">0.010 * sind(linspace(0, 360, 10) - 200)</P>
+      <P Name="Cq_TLU_1D_unit">1</P>
+      <P Name="Cq_TLU_1D_conf">compiletime</P>
+      <P Name="Ct_TLU_2D">[0.01 * sind(linspace(0, 360, 10) - 200); 0.020 * sind(linspace(0, 360, 10) - 200); 0.035 * sind(linspace(0, 360, 10) - 200); 0.04 * sind(linspace(0, 360, 10) - 200); 0.06 * sind(linspace(0, 360, 10) - 200)]</P>
+      <P Name="Ct_TLU_2D_unit">1</P>
+      <P Name="Ct_TLU_2D_conf">compiletime</P>
+      <P Name="Cq_TLU_2D">[0.0005 * sind(linspace(0, 360, 10) - 200); 0.0015 * sind(linspace(0, 360, 10) - 200); 0.0025 * sind(linspace(0, 360, 10) - 200); 0.0035 * sind(linspace(0, 360, 10) - 200); 0.0045 * sind(linspace(0, 360, 10) - 200)]</P>
+      <P Name="Cq_TLU_2D_unit">1</P>
+      <P Name="Cq_TLU_2D_conf">compiletime</P>
+      <P Name="n_blades">2</P>
+      <P Name="n_blades_unit">1</P>
+      <P Name="n_blades_conf">compiletime</P>
+      <P Name="radial_TLU">[.1, .12, .2, .4, .6, .8, 1]</P>
+      <P Name="radial_TLU_unit">1</P>
+      <P Name="radial_TLU_conf">compiletime</P>
+      <P Name="twist_TLU">[30, 35, 50, 30, 20, 15, 10]</P>
+      <P Name="twist_TLU_unit">deg</P>
+      <P Name="twist_TLU_conf">compiletime</P>
+      <P Name="chord_TLU">[.0676, .0666, .0824, .1025, .0885, .0598, .0133]</P>
+      <P Name="chord_TLU_unit">1</P>
+      <P Name="chord_TLU_conf">compiletime</P>
+      <P Name="alpha_TLU">-180 : 10 : 180</P>
+      <P Name="alpha_TLU_unit">deg</P>
+      <P Name="alpha_TLU_conf">compiletime</P>
+      <P Name="Cl_TLU">[.1326, .1326, .1274, .1274, .1274, .1274, .1274; .3626, .3626, .5002, .5002, .5002, .5002, .5002; .5528, .5528, .8007, .8007, .8007, .8007, .8007; .7256, .7256, 1.0125, 1.0125, 1.0125, 1.0125, 1.0125; .8016, .8016, 1.1556, 1.1556, 1.1556, 1.1556, 1.1556; .7873, .7873, 1.1604, 1.1604, 1.1604, 1.1604, 1.1604; .7031, .7031, 1.0493, 1.0493, 1.0493, 1.0493, 1.0493; .5423, .5423, .7973, .7973, .7973, .7973, .7973; .3537, .3537, .4332, .4332, .4332, .4332, .4332; .1155, .1155, -.0376, -.0376, -.0376, -.0376, -.0376; -.1045, -.1045, -.4096, -.4096, -.4096, -.4096, -.4096; -.2999, -.2999, -.672, -.672, -.672, -.672, -.672; -.4401, -.4401, -.9343, -.9343, -.9343, -.9343, -.9343; -.5186, -.5186, -1.0477, -1.0477, -1.0477, -1.0477, -1.0477; -.5303, -.5303, -1.0387, -1.0387, -1.0387, -1.0387, -1.0387; -.5073, -.5073, -.9565, -.9565, -.9565, -.9565, -.9565; -.442, -.442, -.7713, -.7713, -.7713, -.7713, -.7713; -.2658, -.2658, -.4832, -.4832, -.4832, -.4832, -.4832; .4109, .4109, .3629, .3629, .3629, .3629, .3629; 1.1635, 1.1635, 1.3779, 1.3779, 1.3779, 1.3779, 1.3779; 1.2412, 1.2412, 1.4033, 1.4033, 1.4033, 1.4033, 1.4033; .7434, .7434, 1.3453, 1.3453, 1.3453, 1.3453, 1.3453; .7908, .7908, 1.2862, 1.2862, 1.2862, 1.2862, 1.2862; .7525, .7525, 1.1562, 1.1562, 1.1562, 1.1562, 1.1562; .6722, .6722, .9487, .9487, .9487, .9487, .9487; .5324, .5324, .7047, .7047, .7047, .7047, .7047; .3365, .3365, .382, .382, .382, .382, .382; .0529, .0529, -.0229, -.0229, -.0229, -.0229, -.0229; -.2728, -.2728, -.316, -.316, -.316, -.316, -.316; -.4135, -.4135, -.6195, -.6195, -.6195, -.6195, -.6195; -.5087, -.5087, -.7847, -.7847, -.7847, -.7847, -.7847; -.5342, -.5342, -.8419, -.8419, -.8419, -.8419, -.8419; -.5166, -.5166, -.7658, -.7658, -.7658, -.7658, -.7658; -.4321, -.4321, -.5707, -.5707, -.5707, -.5707, -.5707; -.2864, -.2864, -.3098, -.3098, -.3098, -.3098, -.3098; -.1073, -.1073, -.0893, -.0893, -.0893, -.0893, -.0893; .1326, .1326, .1274, .1274, .1274, .1274, .1274]</P>
+      <P Name="Cl_TLU_unit">1</P>
+      <P Name="Cl_TLU_conf">compiletime</P>
+      <P Name="Cd_TLU">[.0055, .0055, .3904, .3904, .3904, .3904, .3904; .0774, .0774, .449, .449, .449, .449, .449; .2412, .2412, .5915, .5915, .5915, .5915, .5915; .4342, .4342, .8307, .8307, .8307, .8307, .8307; .679, .679, 1.0909, 1.0909, 1.0909, 1.0909, 1.0909; .9003, .9003, 1.3868, 1.3868, 1.3868, 1.3868, 1.3868; 1.0825, 1.0825, 1.6565, 1.6565, 1.6565, 1.6565, 1.6565; 1.2281, 1.2281, 1.875, 1.875, 1.875, 1.875, 1.875; 1.3205, 1.3205, 2.017, 2.017, 2.017, 2.017, 2.017; 1.3234, 1.3234, 2.0407, 2.0407, 2.0407, 2.0407, 2.0407; 1.2391, 1.2391, 1.9513, 1.9513, 1.9513, 1.9513, 1.9513; 1.0963, 1.0963, 1.7643, 1.7643, 1.7643, 1.7643, 1.7643; .8978, .8978, 1.5048, 1.5048, 1.5048, 1.5048, 1.5048; .6525, .6525, 1.2281, 1.2281, 1.2281, 1.2281, 1.2281; .4203, .4203, .838, .838, .838, .838, .838; .2428, .2428, .5434, .5434, .5434, .5434, .5434; .0951, .0951, .2517, .2517, .2517, .2517, .2517; .0292, .0292, .0698, .0698, .0698, .0698, .0698; .0148, .0148, .0267, .0267, .0267, .0267, .0267; .0808, .0808, .0509, .0509, .0509, .0509, .0509; .2429, .2429, .1561, .1561, .1561, .1561, .1561; .5019, .5019, .3927, .3927, .3927, .3927, .3927; .7217, .7217, .7438, .7438, .7438, .7438, .7438; .9336, .9336, 1.1277, 1.1277, 1.1277, 1.1277, 1.1277; 1.0984, 1.0984, 1.4838, 1.4838, 1.4838, 1.4838, 1.4838; 1.2274, 1.2274, 1.7877, 1.7877, 1.7877, 1.7877, 1.7877; 1.3016, 1.3016, 1.9779, 1.9779, 1.9779, 1.9779, 1.9779; 1.3305, 1.3305, 2.0516, 2.0516, 2.0516, 2.0516, 2.0516; 1.2889, 1.2889, 1.9974, 1.9974, 1.9974, 1.9974, 1.9974; 1.1677, 1.1677, 1.8463, 1.8463, 1.8463, 1.8463, 1.8463; 1.0076, 1.0076, 1.5699, 1.5699, 1.5699, 1.5699, 1.5699; .8068, .8068, 1.2596, 1.2596, 1.2596, 1.2596, 1.2596; .5688, .5688, .9493, .9493, .9493, .9493, .9493; .3604, .3604, .6154, .6154, .6154, .6154, .6154; .1802, .1802, .5015, .5015, .5015, .5015, .5015; .0699, .0699, .4265, .4265, .4265, .4265, .4265; .0055, .0055, .3904, .3904, .3904, .3904, .3904]</P>
+      <P Name="Cd_TLU_unit">1</P>
+      <P Name="Cd_TLU_conf">compiletime</P>
+      <P Name="interp_method">simscape.enum.interpolation.linear</P>
+      <P Name="interp_method_unit">1</P>
+      <P Name="interp_method_conf">compiletime</P>
+      <P Name="extrap_method">simscape.enum.extrapolation.linear</P>
+      <P Name="extrap_method_unit">1</P>
+      <P Name="extrap_method_conf">compiletime</P>
+      <P Name="n_blade_discretization">10</P>
+      <P Name="n_blade_discretization_unit">1</P>
+      <P Name="n_blade_discretization_conf">compiletime</P>
+      <P Name="n_azimuthal_discretization">10</P>
+      <P Name="n_azimuthal_discretization_unit">1</P>
+      <P Name="n_azimuthal_discretization_conf">compiletime</P>
+      <P Name="density_spec">foundation.enum.constant_variable.constant</P>
+      <P Name="density_spec_unit">1</P>
+      <P Name="density_spec_conf">compiletime</P>
+      <P Name="rho">1.225</P>
+      <P Name="rho_unit">kg/m^3</P>
+      <P Name="rho_conf">compiletime</P>
+      <P Name="rotational_ports">sdl.enum.ConnectionType.PS</P>
+      <P Name="rotational_ports_unit">1</P>
+      <P Name="rotational_ports_conf">compiletime</P>
+      <P Name="translational_ports">sdl.enum.ConnectionType.PS</P>
+      <P Name="translational_ports_unit">1</P>
+      <P Name="translational_ports_conf">compiletime</P>
+      <P Name="model_inertia">false</P>
+      <P Name="model_inertia_unit">1</P>
+      <P Name="model_inertia_conf">compiletime</P>
+      <P Name="propeller_inertia">1</P>
+      <P Name="propeller_inertia_unit">kg*m^2</P>
+      <P Name="propeller_inertia_conf">compiletime</P>
+      <P Name="propeller_mass">10</P>
+      <P Name="propeller_mass_unit">kg</P>
+      <P Name="propeller_mass_conf">compiletime</P>
+      <P Name="efficiency_sensor">false</P>
+      <P Name="efficiency_sensor_unit">1</P>
+      <P Name="efficiency_sensor_conf">compiletime</P>
+      <P Name="n_thr">0.001</P>
+      <P Name="n_thr_unit">Hz</P>
+      <P Name="n_thr_conf">compiletime</P>
+      <P Name="k_thr">0.001</P>
+      <P Name="k_thr_unit">1</P>
+      <P Name="k_thr_conf">compiletime</P>
+      <P Name="P_thr">0.01</P>
+      <P Name="P_thr_unit">W</P>
+      <P Name="P_thr_conf">compiletime</P>
+      <P Name="operation_check">simscape.enum.assert.action.warn</P>
+      <P Name="operation_check_unit">1</P>
+      <P Name="operation_check_conf">compiletime</P>
+      <P Name="expose_port_C">false</P>
+      <P Name="expose_port_C_unit">1</P>
+      <P Name="expose_port_C_conf">compiletime</P>
+      <P Name="w_specify">off</P>
+      <P Name="w_priority">None</P>
+      <P Name="w">0</P>
+      <P Name="w_unit">rad/s</P>
+      <P Name="w_nominal_specify">off</P>
+      <P Name="w_nominal_value">1</P>
+      <P Name="w_nominal_unit">rad/s</P>
+      <P Name="Q_specify">off</P>
+      <P Name="Q_priority">None</P>
+      <P Name="Q">0</P>
+      <P Name="Q_unit">N*m</P>
+      <P Name="Q_nominal_specify">off</P>
+      <P Name="Q_nominal_value">1</P>
+      <P Name="Q_nominal_unit">N*m</P>
+      <P Name="v_specify">off</P>
+      <P Name="v_priority">None</P>
+      <P Name="v">0</P>
+      <P Name="v_unit">m/s</P>
+      <P Name="v_nominal_specify">off</P>
+      <P Name="v_nominal_value">1</P>
+      <P Name="v_nominal_unit">m/s</P>
+      <P Name="thrust_specify">off</P>
+      <P Name="thrust_priority">None</P>
+      <P Name="thrust">0</P>
+      <P Name="thrust_unit">N</P>
+      <P Name="thrust_nominal_specify">off</P>
+      <P Name="thrust_nominal_value">1</P>
+      <P Name="thrust_nominal_unit">N</P>
+    </InstanceData>
+    <PortProperties>
+      <Port Type="lconn" Index="1">
+        <P Name="PortId">Q_out</P>
+      </Port>
+      <Port Type="lconn" Index="2">
+        <P Name="PortId">Th_out</P>
+      </Port>
+      <Port Type="rconn" Index="1">
+        <P Name="PortId">w_in</P>
+      </Port>
+      <Port Type="rconn" Index="2">
+        <P Name="PortId">Va_in</P>
+      </Port>
+      <Port Type="rconn" Index="3">
+        <P Name="PortId">Vv_in</P>
+      </Port>
+    </PortProperties>
+  </Block>
+  <Block BlockType="Reference" Name="Aerodynamic&#xA;Propeller2" SID="110">
+    <PortCounts lconn="2" rconn="3"/>
+    <P Name="Position">[690, 320, 750, 380]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="BackgroundColor">automatic</P>
+    <P Name="LibraryVersion">26001000.2</P>
+    <P Name="SourceBlock">sdl_lib/Engines &amp; Motors/Aerodynamic
+Propeller</P>
+    <P Name="SourceType">Aerodynamic
+Propeller</P>
+    <InstanceData>
+      <P Name="LogSimulationData">off</P>
+      <P Name="SimscapeInstrumentationLogging">off</P>
+      <P Name="SimscapeInstrumentationVariables" Ref="bdmxdata:SimscapeInstrumentationVariables_110"/>
+      <P Name="SourceFile">sdl.engines.aerodynamic_propeller</P>
+      <P Name="SscBlockScalableBuild">off</P>
+      <P Name="ComponentPath">sdl.engines.aerodynamic_propeller</P>
+      <P Name="ComponentVariants">[&quot;sdl.engines.aerodynamic_propeller&quot;]</P>
+      <P Name="ComponentVariantNames">[&quot;aerodynamic_propeller&quot;]</P>
+      <P Name="ClassName">aerodynamic_propeller</P>
+      <P Name="SchemaVersion">1</P>
+      <P Name="parameterization">sdl.enum.AerodynamicPropellerParameterization.Constant</P>
+      <P Name="parameterization_unit">1</P>
+      <P Name="parameterization_conf">compiletime</P>
+      <P Name="enable_collective_pitch_control">false</P>
+      <P Name="enable_collective_pitch_control_unit">1</P>
+      <P Name="enable_collective_pitch_control_conf">compiletime</P>
+      <P Name="enable_transverse_flow">false</P>
+      <P Name="enable_transverse_flow_unit">1</P>
+      <P Name="enable_transverse_flow_conf">compiletime</P>
+      <P Name="direction">sdl.enum.PropellerDirection.Negative</P>
+      <P Name="direction_unit">1</P>
+      <P Name="direction_conf">compiletime</P>
+      <P Name="root_pitch">0</P>
+      <P Name="root_pitch_unit">deg</P>
+      <P Name="root_pitch_conf">compiletime</P>
+      <P Name="D">0.2</P>
+      <P Name="D_unit">m</P>
+      <P Name="D_conf">compiletime</P>
+      <P Name="kt_const">1.529</P>
+      <P Name="kt_const_unit">1</P>
+      <P Name="kt_const_conf">compiletime</P>
+      <P Name="kp_const">0.05</P>
+      <P Name="kp_const_unit">1</P>
+      <P Name="kp_const_conf">compiletime</P>
+      <P Name="kt_poly_fixed">[.002, .0006, -.0509, .0617]</P>
+      <P Name="kt_poly_fixed_unit">1</P>
+      <P Name="kt_poly_fixed_conf">compiletime</P>
+      <P Name="kp_poly_fixed">[-.0752, .0577, -.0622, .16]</P>
+      <P Name="kp_poly_fixed_unit">1</P>
+      <P Name="kp_poly_fixed_conf">compiletime</P>
+      <P Name="pitch_angle_TLU">[-15, 15, 25, 35, 45]</P>
+      <P Name="pitch_angle_TLU_unit">deg</P>
+      <P Name="pitch_angle_TLU_conf">compiletime</P>
+      <P Name="kt_poly_TLU">[.0002, -.00041, -.036, .03; .00026, -.00056, -.048, .04; .002, .00063, -.051, .062; .0014, -.0016, -.048, .087; .00087, -.0036, -.041, .12]</P>
+      <P Name="kt_poly_TLU_unit">1</P>
+      <P Name="kt_poly_TLU_conf">compiletime</P>
+      <P Name="kp_poly_TLU">[-.1, .031, .0055, .088; -.081, -.025, .0044, .07; -.075, .058, -.062, .16; -.052, .065, -.08, .3; -.031, .057, -.069, .4]</P>
+      <P Name="kp_poly_TLU_unit">1</P>
+      <P Name="kp_poly_TLU_conf">compiletime</P>
+      <P Name="J_TLU">[.01, .3, .625, 1.55, 2, 2.6]</P>
+      <P Name="J_TLU_unit">1</P>
+      <P Name="J_TLU_conf">compiletime</P>
+      <P Name="kt_TLU_1D">[.0614, .0473, .0318, -.0127, -.0343, -.063]</P>
+      <P Name="kt_TLU_1D_unit">1</P>
+      <P Name="kt_TLU_1D_conf">compiletime</P>
+      <P Name="kp_TLU_1D">[.1496, .1314, .116, -.0521, -.1503, -.2813]</P>
+      <P Name="kp_TLU_1D_unit">1</P>
+      <P Name="kp_TLU_1D_conf">compiletime</P>
+      <P Name="kt_TLU_2D">[.00019, .013, .0048, -.017, -.03, -.045; .00039, .025, .0096, -.037, -.06, -.09; .00061, .047, .032, -.013, -.034, -.063; .00086, .072, .057, .014, -.0076, -.036; .12, .104, .09, .049, .029, .0019]</P>
+      <P Name="kt_TLU_2D_unit">1</P>
+      <P Name="kt_TLU_2D_conf">compiletime</P>
+      <P Name="kp_TLU_2D">[.029, .029, .016, .06, .009, -.16; .059, .054, .031, -.12, -.19, -.29; .15, .13, .12, -.052, -.15, -.28; .26, .24, .22, .097, -.04, -.25; .39, .39, .38, .32, .24, .062]</P>
+      <P Name="kp_TLU_2D_unit">1</P>
+      <P Name="kp_TLU_2D_conf">compiletime</P>
+      <P Name="beta_TLU">linspace(0, 360, 10)</P>
+      <P Name="beta_TLU_unit">deg</P>
+      <P Name="beta_TLU_conf">compiletime</P>
+      <P Name="Ct_TLU_1D">0.035 * sind(linspace(0, 360, 10) - 200)</P>
+      <P Name="Ct_TLU_1D_unit">1</P>
+      <P Name="Ct_TLU_1D_conf">compiletime</P>
+      <P Name="Cq_TLU_1D">0.010 * sind(linspace(0, 360, 10) - 200)</P>
+      <P Name="Cq_TLU_1D_unit">1</P>
+      <P Name="Cq_TLU_1D_conf">compiletime</P>
+      <P Name="Ct_TLU_2D">[0.01 * sind(linspace(0, 360, 10) - 200); 0.020 * sind(linspace(0, 360, 10) - 200); 0.035 * sind(linspace(0, 360, 10) - 200); 0.04 * sind(linspace(0, 360, 10) - 200); 0.06 * sind(linspace(0, 360, 10) - 200)]</P>
+      <P Name="Ct_TLU_2D_unit">1</P>
+      <P Name="Ct_TLU_2D_conf">compiletime</P>
+      <P Name="Cq_TLU_2D">[0.0005 * sind(linspace(0, 360, 10) - 200); 0.0015 * sind(linspace(0, 360, 10) - 200); 0.0025 * sind(linspace(0, 360, 10) - 200); 0.0035 * sind(linspace(0, 360, 10) - 200); 0.0045 * sind(linspace(0, 360, 10) - 200)]</P>
+      <P Name="Cq_TLU_2D_unit">1</P>
+      <P Name="Cq_TLU_2D_conf">compiletime</P>
+      <P Name="n_blades">2</P>
+      <P Name="n_blades_unit">1</P>
+      <P Name="n_blades_conf">compiletime</P>
+      <P Name="radial_TLU">[.1, .12, .2, .4, .6, .8, 1]</P>
+      <P Name="radial_TLU_unit">1</P>
+      <P Name="radial_TLU_conf">compiletime</P>
+      <P Name="twist_TLU">[30, 35, 50, 30, 20, 15, 10]</P>
+      <P Name="twist_TLU_unit">deg</P>
+      <P Name="twist_TLU_conf">compiletime</P>
+      <P Name="chord_TLU">[.0676, .0666, .0824, .1025, .0885, .0598, .0133]</P>
+      <P Name="chord_TLU_unit">1</P>
+      <P Name="chord_TLU_conf">compiletime</P>
+      <P Name="alpha_TLU">-180 : 10 : 180</P>
+      <P Name="alpha_TLU_unit">deg</P>
+      <P Name="alpha_TLU_conf">compiletime</P>
+      <P Name="Cl_TLU">[.1326, .1326, .1274, .1274, .1274, .1274, .1274; .3626, .3626, .5002, .5002, .5002, .5002, .5002; .5528, .5528, .8007, .8007, .8007, .8007, .8007; .7256, .7256, 1.0125, 1.0125, 1.0125, 1.0125, 1.0125; .8016, .8016, 1.1556, 1.1556, 1.1556, 1.1556, 1.1556; .7873, .7873, 1.1604, 1.1604, 1.1604, 1.1604, 1.1604; .7031, .7031, 1.0493, 1.0493, 1.0493, 1.0493, 1.0493; .5423, .5423, .7973, .7973, .7973, .7973, .7973; .3537, .3537, .4332, .4332, .4332, .4332, .4332; .1155, .1155, -.0376, -.0376, -.0376, -.0376, -.0376; -.1045, -.1045, -.4096, -.4096, -.4096, -.4096, -.4096; -.2999, -.2999, -.672, -.672, -.672, -.672, -.672; -.4401, -.4401, -.9343, -.9343, -.9343, -.9343, -.9343; -.5186, -.5186, -1.0477, -1.0477, -1.0477, -1.0477, -1.0477; -.5303, -.5303, -1.0387, -1.0387, -1.0387, -1.0387, -1.0387; -.5073, -.5073, -.9565, -.9565, -.9565, -.9565, -.9565; -.442, -.442, -.7713, -.7713, -.7713, -.7713, -.7713; -.2658, -.2658, -.4832, -.4832, -.4832, -.4832, -.4832; .4109, .4109, .3629, .3629, .3629, .3629, .3629; 1.1635, 1.1635, 1.3779, 1.3779, 1.3779, 1.3779, 1.3779; 1.2412, 1.2412, 1.4033, 1.4033, 1.4033, 1.4033, 1.4033; .7434, .7434, 1.3453, 1.3453, 1.3453, 1.3453, 1.3453; .7908, .7908, 1.2862, 1.2862, 1.2862, 1.2862, 1.2862; .7525, .7525, 1.1562, 1.1562, 1.1562, 1.1562, 1.1562; .6722, .6722, .9487, .9487, .9487, .9487, .9487; .5324, .5324, .7047, .7047, .7047, .7047, .7047; .3365, .3365, .382, .382, .382, .382, .382; .0529, .0529, -.0229, -.0229, -.0229, -.0229, -.0229; -.2728, -.2728, -.316, -.316, -.316, -.316, -.316; -.4135, -.4135, -.6195, -.6195, -.6195, -.6195, -.6195; -.5087, -.5087, -.7847, -.7847, -.7847, -.7847, -.7847; -.5342, -.5342, -.8419, -.8419, -.8419, -.8419, -.8419; -.5166, -.5166, -.7658, -.7658, -.7658, -.7658, -.7658; -.4321, -.4321, -.5707, -.5707, -.5707, -.5707, -.5707; -.2864, -.2864, -.3098, -.3098, -.3098, -.3098, -.3098; -.1073, -.1073, -.0893, -.0893, -.0893, -.0893, -.0893; .1326, .1326, .1274, .1274, .1274, .1274, .1274]</P>
+      <P Name="Cl_TLU_unit">1</P>
+      <P Name="Cl_TLU_conf">compiletime</P>
+      <P Name="Cd_TLU">[.0055, .0055, .3904, .3904, .3904, .3904, .3904; .0774, .0774, .449, .449, .449, .449, .449; .2412, .2412, .5915, .5915, .5915, .5915, .5915; .4342, .4342, .8307, .8307, .8307, .8307, .8307; .679, .679, 1.0909, 1.0909, 1.0909, 1.0909, 1.0909; .9003, .9003, 1.3868, 1.3868, 1.3868, 1.3868, 1.3868; 1.0825, 1.0825, 1.6565, 1.6565, 1.6565, 1.6565, 1.6565; 1.2281, 1.2281, 1.875, 1.875, 1.875, 1.875, 1.875; 1.3205, 1.3205, 2.017, 2.017, 2.017, 2.017, 2.017; 1.3234, 1.3234, 2.0407, 2.0407, 2.0407, 2.0407, 2.0407; 1.2391, 1.2391, 1.9513, 1.9513, 1.9513, 1.9513, 1.9513; 1.0963, 1.0963, 1.7643, 1.7643, 1.7643, 1.7643, 1.7643; .8978, .8978, 1.5048, 1.5048, 1.5048, 1.5048, 1.5048; .6525, .6525, 1.2281, 1.2281, 1.2281, 1.2281, 1.2281; .4203, .4203, .838, .838, .838, .838, .838; .2428, .2428, .5434, .5434, .5434, .5434, .5434; .0951, .0951, .2517, .2517, .2517, .2517, .2517; .0292, .0292, .0698, .0698, .0698, .0698, .0698; .0148, .0148, .0267, .0267, .0267, .0267, .0267; .0808, .0808, .0509, .0509, .0509, .0509, .0509; .2429, .2429, .1561, .1561, .1561, .1561, .1561; .5019, .5019, .3927, .3927, .3927, .3927, .3927; .7217, .7217, .7438, .7438, .7438, .7438, .7438; .9336, .9336, 1.1277, 1.1277, 1.1277, 1.1277, 1.1277; 1.0984, 1.0984, 1.4838, 1.4838, 1.4838, 1.4838, 1.4838; 1.2274, 1.2274, 1.7877, 1.7877, 1.7877, 1.7877, 1.7877; 1.3016, 1.3016, 1.9779, 1.9779, 1.9779, 1.9779, 1.9779; 1.3305, 1.3305, 2.0516, 2.0516, 2.0516, 2.0516, 2.0516; 1.2889, 1.2889, 1.9974, 1.9974, 1.9974, 1.9974, 1.9974; 1.1677, 1.1677, 1.8463, 1.8463, 1.8463, 1.8463, 1.8463; 1.0076, 1.0076, 1.5699, 1.5699, 1.5699, 1.5699, 1.5699; .8068, .8068, 1.2596, 1.2596, 1.2596, 1.2596, 1.2596; .5688, .5688, .9493, .9493, .9493, .9493, .9493; .3604, .3604, .6154, .6154, .6154, .6154, .6154; .1802, .1802, .5015, .5015, .5015, .5015, .5015; .0699, .0699, .4265, .4265, .4265, .4265, .4265; .0055, .0055, .3904, .3904, .3904, .3904, .3904]</P>
+      <P Name="Cd_TLU_unit">1</P>
+      <P Name="Cd_TLU_conf">compiletime</P>
+      <P Name="interp_method">simscape.enum.interpolation.linear</P>
+      <P Name="interp_method_unit">1</P>
+      <P Name="interp_method_conf">compiletime</P>
+      <P Name="extrap_method">simscape.enum.extrapolation.linear</P>
+      <P Name="extrap_method_unit">1</P>
+      <P Name="extrap_method_conf">compiletime</P>
+      <P Name="n_blade_discretization">10</P>
+      <P Name="n_blade_discretization_unit">1</P>
+      <P Name="n_blade_discretization_conf">compiletime</P>
+      <P Name="n_azimuthal_discretization">10</P>
+      <P Name="n_azimuthal_discretization_unit">1</P>
+      <P Name="n_azimuthal_discretization_conf">compiletime</P>
+      <P Name="density_spec">foundation.enum.constant_variable.constant</P>
+      <P Name="density_spec_unit">1</P>
+      <P Name="density_spec_conf">compiletime</P>
+      <P Name="rho">1.225</P>
+      <P Name="rho_unit">kg/m^3</P>
+      <P Name="rho_conf">compiletime</P>
+      <P Name="rotational_ports">sdl.enum.ConnectionType.PS</P>
+      <P Name="rotational_ports_unit">1</P>
+      <P Name="rotational_ports_conf">compiletime</P>
+      <P Name="translational_ports">sdl.enum.ConnectionType.PS</P>
+      <P Name="translational_ports_unit">1</P>
+      <P Name="translational_ports_conf">compiletime</P>
+      <P Name="model_inertia">false</P>
+      <P Name="model_inertia_unit">1</P>
+      <P Name="model_inertia_conf">compiletime</P>
+      <P Name="propeller_inertia">1</P>
+      <P Name="propeller_inertia_unit">kg*m^2</P>
+      <P Name="propeller_inertia_conf">compiletime</P>
+      <P Name="propeller_mass">10</P>
+      <P Name="propeller_mass_unit">kg</P>
+      <P Name="propeller_mass_conf">compiletime</P>
+      <P Name="efficiency_sensor">false</P>
+      <P Name="efficiency_sensor_unit">1</P>
+      <P Name="efficiency_sensor_conf">compiletime</P>
+      <P Name="n_thr">0.001</P>
+      <P Name="n_thr_unit">Hz</P>
+      <P Name="n_thr_conf">compiletime</P>
+      <P Name="k_thr">0.001</P>
+      <P Name="k_thr_unit">1</P>
+      <P Name="k_thr_conf">compiletime</P>
+      <P Name="P_thr">0.01</P>
+      <P Name="P_thr_unit">W</P>
+      <P Name="P_thr_conf">compiletime</P>
+      <P Name="operation_check">simscape.enum.assert.action.warn</P>
+      <P Name="operation_check_unit">1</P>
+      <P Name="operation_check_conf">compiletime</P>
+      <P Name="expose_port_C">false</P>
+      <P Name="expose_port_C_unit">1</P>
+      <P Name="expose_port_C_conf">compiletime</P>
+      <P Name="w_specify">off</P>
+      <P Name="w_priority">None</P>
+      <P Name="w">0</P>
+      <P Name="w_unit">rad/s</P>
+      <P Name="w_nominal_specify">off</P>
+      <P Name="w_nominal_value">1</P>
+      <P Name="w_nominal_unit">rad/s</P>
+      <P Name="Q_specify">off</P>
+      <P Name="Q_priority">None</P>
+      <P Name="Q">0</P>
+      <P Name="Q_unit">N*m</P>
+      <P Name="Q_nominal_specify">off</P>
+      <P Name="Q_nominal_value">1</P>
+      <P Name="Q_nominal_unit">N*m</P>
+      <P Name="v_specify">off</P>
+      <P Name="v_priority">None</P>
+      <P Name="v">0</P>
+      <P Name="v_unit">m/s</P>
+      <P Name="v_nominal_specify">off</P>
+      <P Name="v_nominal_value">1</P>
+      <P Name="v_nominal_unit">m/s</P>
+      <P Name="thrust_specify">off</P>
+      <P Name="thrust_priority">None</P>
+      <P Name="thrust">0</P>
+      <P Name="thrust_unit">N</P>
+      <P Name="thrust_nominal_specify">off</P>
+      <P Name="thrust_nominal_value">1</P>
+      <P Name="thrust_nominal_unit">N</P>
+    </InstanceData>
+    <PortProperties>
+      <Port Type="lconn" Index="1">
+        <P Name="PortId">Q_out</P>
+      </Port>
+      <Port Type="lconn" Index="2">
+        <P Name="PortId">Th_out</P>
+      </Port>
+      <Port Type="rconn" Index="1">
+        <P Name="PortId">w_in</P>
+      </Port>
+      <Port Type="rconn" Index="2">
+        <P Name="PortId">Va_in</P>
+      </Port>
+      <Port Type="rconn" Index="3">
+        <P Name="PortId">Vv_in</P>
+      </Port>
+    </PortProperties>
+  </Block>
+  <Block BlockType="Reference" Name="Aerodynamic&#xA;Propeller3" SID="111">
+    <PortCounts lconn="2" rconn="3"/>
+    <P Name="Position">[690, 410, 750, 470]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="BackgroundColor">automatic</P>
+    <P Name="LibraryVersion">26001000.2</P>
+    <P Name="SourceBlock">sdl_lib/Engines &amp; Motors/Aerodynamic
+Propeller</P>
+    <P Name="SourceType">Aerodynamic
+Propeller</P>
+    <InstanceData>
+      <P Name="LogSimulationData">off</P>
+      <P Name="SimscapeInstrumentationLogging">off</P>
+      <P Name="SimscapeInstrumentationVariables" Ref="bdmxdata:SimscapeInstrumentationVariables_111"/>
+      <P Name="SourceFile">sdl.engines.aerodynamic_propeller</P>
+      <P Name="SscBlockScalableBuild">off</P>
+      <P Name="ComponentPath">sdl.engines.aerodynamic_propeller</P>
+      <P Name="ComponentVariants">[&quot;sdl.engines.aerodynamic_propeller&quot;]</P>
+      <P Name="ComponentVariantNames">[&quot;aerodynamic_propeller&quot;]</P>
+      <P Name="ClassName">aerodynamic_propeller</P>
+      <P Name="SchemaVersion">1</P>
+      <P Name="parameterization">sdl.enum.AerodynamicPropellerParameterization.Constant</P>
+      <P Name="parameterization_unit">1</P>
+      <P Name="parameterization_conf">compiletime</P>
+      <P Name="enable_collective_pitch_control">false</P>
+      <P Name="enable_collective_pitch_control_unit">1</P>
+      <P Name="enable_collective_pitch_control_conf">compiletime</P>
+      <P Name="enable_transverse_flow">false</P>
+      <P Name="enable_transverse_flow_unit">1</P>
+      <P Name="enable_transverse_flow_conf">compiletime</P>
+      <P Name="direction">sdl.enum.PropellerDirection.Positive</P>
+      <P Name="direction_unit">1</P>
+      <P Name="direction_conf">compiletime</P>
+      <P Name="root_pitch">0</P>
+      <P Name="root_pitch_unit">deg</P>
+      <P Name="root_pitch_conf">compiletime</P>
+      <P Name="D">0.2</P>
+      <P Name="D_unit">m</P>
+      <P Name="D_conf">compiletime</P>
+      <P Name="kt_const">1.529</P>
+      <P Name="kt_const_unit">1</P>
+      <P Name="kt_const_conf">compiletime</P>
+      <P Name="kp_const">0.05</P>
+      <P Name="kp_const_unit">1</P>
+      <P Name="kp_const_conf">compiletime</P>
+      <P Name="kt_poly_fixed">[.002, .0006, -.0509, .0617]</P>
+      <P Name="kt_poly_fixed_unit">1</P>
+      <P Name="kt_poly_fixed_conf">compiletime</P>
+      <P Name="kp_poly_fixed">[-.0752, .0577, -.0622, .16]</P>
+      <P Name="kp_poly_fixed_unit">1</P>
+      <P Name="kp_poly_fixed_conf">compiletime</P>
+      <P Name="pitch_angle_TLU">[-15, 15, 25, 35, 45]</P>
+      <P Name="pitch_angle_TLU_unit">deg</P>
+      <P Name="pitch_angle_TLU_conf">compiletime</P>
+      <P Name="kt_poly_TLU">[.0002, -.00041, -.036, .03; .00026, -.00056, -.048, .04; .002, .00063, -.051, .062; .0014, -.0016, -.048, .087; .00087, -.0036, -.041, .12]</P>
+      <P Name="kt_poly_TLU_unit">1</P>
+      <P Name="kt_poly_TLU_conf">compiletime</P>
+      <P Name="kp_poly_TLU">[-.1, .031, .0055, .088; -.081, -.025, .0044, .07; -.075, .058, -.062, .16; -.052, .065, -.08, .3; -.031, .057, -.069, .4]</P>
+      <P Name="kp_poly_TLU_unit">1</P>
+      <P Name="kp_poly_TLU_conf">compiletime</P>
+      <P Name="J_TLU">[.01, .3, .625, 1.55, 2, 2.6]</P>
+      <P Name="J_TLU_unit">1</P>
+      <P Name="J_TLU_conf">compiletime</P>
+      <P Name="kt_TLU_1D">[.0614, .0473, .0318, -.0127, -.0343, -.063]</P>
+      <P Name="kt_TLU_1D_unit">1</P>
+      <P Name="kt_TLU_1D_conf">compiletime</P>
+      <P Name="kp_TLU_1D">[.1496, .1314, .116, -.0521, -.1503, -.2813]</P>
+      <P Name="kp_TLU_1D_unit">1</P>
+      <P Name="kp_TLU_1D_conf">compiletime</P>
+      <P Name="kt_TLU_2D">[.00019, .013, .0048, -.017, -.03, -.045; .00039, .025, .0096, -.037, -.06, -.09; .00061, .047, .032, -.013, -.034, -.063; .00086, .072, .057, .014, -.0076, -.036; .12, .104, .09, .049, .029, .0019]</P>
+      <P Name="kt_TLU_2D_unit">1</P>
+      <P Name="kt_TLU_2D_conf">compiletime</P>
+      <P Name="kp_TLU_2D">[.029, .029, .016, .06, .009, -.16; .059, .054, .031, -.12, -.19, -.29; .15, .13, .12, -.052, -.15, -.28; .26, .24, .22, .097, -.04, -.25; .39, .39, .38, .32, .24, .062]</P>
+      <P Name="kp_TLU_2D_unit">1</P>
+      <P Name="kp_TLU_2D_conf">compiletime</P>
+      <P Name="beta_TLU">linspace(0, 360, 10)</P>
+      <P Name="beta_TLU_unit">deg</P>
+      <P Name="beta_TLU_conf">compiletime</P>
+      <P Name="Ct_TLU_1D">0.035 * sind(linspace(0, 360, 10) - 200)</P>
+      <P Name="Ct_TLU_1D_unit">1</P>
+      <P Name="Ct_TLU_1D_conf">compiletime</P>
+      <P Name="Cq_TLU_1D">0.010 * sind(linspace(0, 360, 10) - 200)</P>
+      <P Name="Cq_TLU_1D_unit">1</P>
+      <P Name="Cq_TLU_1D_conf">compiletime</P>
+      <P Name="Ct_TLU_2D">[0.01 * sind(linspace(0, 360, 10) - 200); 0.020 * sind(linspace(0, 360, 10) - 200); 0.035 * sind(linspace(0, 360, 10) - 200); 0.04 * sind(linspace(0, 360, 10) - 200); 0.06 * sind(linspace(0, 360, 10) - 200)]</P>
+      <P Name="Ct_TLU_2D_unit">1</P>
+      <P Name="Ct_TLU_2D_conf">compiletime</P>
+      <P Name="Cq_TLU_2D">[0.0005 * sind(linspace(0, 360, 10) - 200); 0.0015 * sind(linspace(0, 360, 10) - 200); 0.0025 * sind(linspace(0, 360, 10) - 200); 0.0035 * sind(linspace(0, 360, 10) - 200); 0.0045 * sind(linspace(0, 360, 10) - 200)]</P>
+      <P Name="Cq_TLU_2D_unit">1</P>
+      <P Name="Cq_TLU_2D_conf">compiletime</P>
+      <P Name="n_blades">2</P>
+      <P Name="n_blades_unit">1</P>
+      <P Name="n_blades_conf">compiletime</P>
+      <P Name="radial_TLU">[.1, .12, .2, .4, .6, .8, 1]</P>
+      <P Name="radial_TLU_unit">1</P>
+      <P Name="radial_TLU_conf">compiletime</P>
+      <P Name="twist_TLU">[30, 35, 50, 30, 20, 15, 10]</P>
+      <P Name="twist_TLU_unit">deg</P>
+      <P Name="twist_TLU_conf">compiletime</P>
+      <P Name="chord_TLU">[.0676, .0666, .0824, .1025, .0885, .0598, .0133]</P>
+      <P Name="chord_TLU_unit">1</P>
+      <P Name="chord_TLU_conf">compiletime</P>
+      <P Name="alpha_TLU">-180 : 10 : 180</P>
+      <P Name="alpha_TLU_unit">deg</P>
+      <P Name="alpha_TLU_conf">compiletime</P>
+      <P Name="Cl_TLU">[.1326, .1326, .1274, .1274, .1274, .1274, .1274; .3626, .3626, .5002, .5002, .5002, .5002, .5002; .5528, .5528, .8007, .8007, .8007, .8007, .8007; .7256, .7256, 1.0125, 1.0125, 1.0125, 1.0125, 1.0125; .8016, .8016, 1.1556, 1.1556, 1.1556, 1.1556, 1.1556; .7873, .7873, 1.1604, 1.1604, 1.1604, 1.1604, 1.1604; .7031, .7031, 1.0493, 1.0493, 1.0493, 1.0493, 1.0493; .5423, .5423, .7973, .7973, .7973, .7973, .7973; .3537, .3537, .4332, .4332, .4332, .4332, .4332; .1155, .1155, -.0376, -.0376, -.0376, -.0376, -.0376; -.1045, -.1045, -.4096, -.4096, -.4096, -.4096, -.4096; -.2999, -.2999, -.672, -.672, -.672, -.672, -.672; -.4401, -.4401, -.9343, -.9343, -.9343, -.9343, -.9343; -.5186, -.5186, -1.0477, -1.0477, -1.0477, -1.0477, -1.0477; -.5303, -.5303, -1.0387, -1.0387, -1.0387, -1.0387, -1.0387; -.5073, -.5073, -.9565, -.9565, -.9565, -.9565, -.9565; -.442, -.442, -.7713, -.7713, -.7713, -.7713, -.7713; -.2658, -.2658, -.4832, -.4832, -.4832, -.4832, -.4832; .4109, .4109, .3629, .3629, .3629, .3629, .3629; 1.1635, 1.1635, 1.3779, 1.3779, 1.3779, 1.3779, 1.3779; 1.2412, 1.2412, 1.4033, 1.4033, 1.4033, 1.4033, 1.4033; .7434, .7434, 1.3453, 1.3453, 1.3453, 1.3453, 1.3453; .7908, .7908, 1.2862, 1.2862, 1.2862, 1.2862, 1.2862; .7525, .7525, 1.1562, 1.1562, 1.1562, 1.1562, 1.1562; .6722, .6722, .9487, .9487, .9487, .9487, .9487; .5324, .5324, .7047, .7047, .7047, .7047, .7047; .3365, .3365, .382, .382, .382, .382, .382; .0529, .0529, -.0229, -.0229, -.0229, -.0229, -.0229; -.2728, -.2728, -.316, -.316, -.316, -.316, -.316; -.4135, -.4135, -.6195, -.6195, -.6195, -.6195, -.6195; -.5087, -.5087, -.7847, -.7847, -.7847, -.7847, -.7847; -.5342, -.5342, -.8419, -.8419, -.8419, -.8419, -.8419; -.5166, -.5166, -.7658, -.7658, -.7658, -.7658, -.7658; -.4321, -.4321, -.5707, -.5707, -.5707, -.5707, -.5707; -.2864, -.2864, -.3098, -.3098, -.3098, -.3098, -.3098; -.1073, -.1073, -.0893, -.0893, -.0893, -.0893, -.0893; .1326, .1326, .1274, .1274, .1274, .1274, .1274]</P>
+      <P Name="Cl_TLU_unit">1</P>
+      <P Name="Cl_TLU_conf">compiletime</P>
+      <P Name="Cd_TLU">[.0055, .0055, .3904, .3904, .3904, .3904, .3904; .0774, .0774, .449, .449, .449, .449, .449; .2412, .2412, .5915, .5915, .5915, .5915, .5915; .4342, .4342, .8307, .8307, .8307, .8307, .8307; .679, .679, 1.0909, 1.0909, 1.0909, 1.0909, 1.0909; .9003, .9003, 1.3868, 1.3868, 1.3868, 1.3868, 1.3868; 1.0825, 1.0825, 1.6565, 1.6565, 1.6565, 1.6565, 1.6565; 1.2281, 1.2281, 1.875, 1.875, 1.875, 1.875, 1.875; 1.3205, 1.3205, 2.017, 2.017, 2.017, 2.017, 2.017; 1.3234, 1.3234, 2.0407, 2.0407, 2.0407, 2.0407, 2.0407; 1.2391, 1.2391, 1.9513, 1.9513, 1.9513, 1.9513, 1.9513; 1.0963, 1.0963, 1.7643, 1.7643, 1.7643, 1.7643, 1.7643; .8978, .8978, 1.5048, 1.5048, 1.5048, 1.5048, 1.5048; .6525, .6525, 1.2281, 1.2281, 1.2281, 1.2281, 1.2281; .4203, .4203, .838, .838, .838, .838, .838; .2428, .2428, .5434, .5434, .5434, .5434, .5434; .0951, .0951, .2517, .2517, .2517, .2517, .2517; .0292, .0292, .0698, .0698, .0698, .0698, .0698; .0148, .0148, .0267, .0267, .0267, .0267, .0267; .0808, .0808, .0509, .0509, .0509, .0509, .0509; .2429, .2429, .1561, .1561, .1561, .1561, .1561; .5019, .5019, .3927, .3927, .3927, .3927, .3927; .7217, .7217, .7438, .7438, .7438, .7438, .7438; .9336, .9336, 1.1277, 1.1277, 1.1277, 1.1277, 1.1277; 1.0984, 1.0984, 1.4838, 1.4838, 1.4838, 1.4838, 1.4838; 1.2274, 1.2274, 1.7877, 1.7877, 1.7877, 1.7877, 1.7877; 1.3016, 1.3016, 1.9779, 1.9779, 1.9779, 1.9779, 1.9779; 1.3305, 1.3305, 2.0516, 2.0516, 2.0516, 2.0516, 2.0516; 1.2889, 1.2889, 1.9974, 1.9974, 1.9974, 1.9974, 1.9974; 1.1677, 1.1677, 1.8463, 1.8463, 1.8463, 1.8463, 1.8463; 1.0076, 1.0076, 1.5699, 1.5699, 1.5699, 1.5699, 1.5699; .8068, .8068, 1.2596, 1.2596, 1.2596, 1.2596, 1.2596; .5688, .5688, .9493, .9493, .9493, .9493, .9493; .3604, .3604, .6154, .6154, .6154, .6154, .6154; .1802, .1802, .5015, .5015, .5015, .5015, .5015; .0699, .0699, .4265, .4265, .4265, .4265, .4265; .0055, .0055, .3904, .3904, .3904, .3904, .3904]</P>
+      <P Name="Cd_TLU_unit">1</P>
+      <P Name="Cd_TLU_conf">compiletime</P>
+      <P Name="interp_method">simscape.enum.interpolation.linear</P>
+      <P Name="interp_method_unit">1</P>
+      <P Name="interp_method_conf">compiletime</P>
+      <P Name="extrap_method">simscape.enum.extrapolation.linear</P>
+      <P Name="extrap_method_unit">1</P>
+      <P Name="extrap_method_conf">compiletime</P>
+      <P Name="n_blade_discretization">10</P>
+      <P Name="n_blade_discretization_unit">1</P>
+      <P Name="n_blade_discretization_conf">compiletime</P>
+      <P Name="n_azimuthal_discretization">10</P>
+      <P Name="n_azimuthal_discretization_unit">1</P>
+      <P Name="n_azimuthal_discretization_conf">compiletime</P>
+      <P Name="density_spec">foundation.enum.constant_variable.constant</P>
+      <P Name="density_spec_unit">1</P>
+      <P Name="density_spec_conf">compiletime</P>
+      <P Name="rho">1.225</P>
+      <P Name="rho_unit">kg/m^3</P>
+      <P Name="rho_conf">compiletime</P>
+      <P Name="rotational_ports">sdl.enum.ConnectionType.PS</P>
+      <P Name="rotational_ports_unit">1</P>
+      <P Name="rotational_ports_conf">compiletime</P>
+      <P Name="translational_ports">sdl.enum.ConnectionType.PS</P>
+      <P Name="translational_ports_unit">1</P>
+      <P Name="translational_ports_conf">compiletime</P>
+      <P Name="model_inertia">false</P>
+      <P Name="model_inertia_unit">1</P>
+      <P Name="model_inertia_conf">compiletime</P>
+      <P Name="propeller_inertia">1</P>
+      <P Name="propeller_inertia_unit">kg*m^2</P>
+      <P Name="propeller_inertia_conf">compiletime</P>
+      <P Name="propeller_mass">10</P>
+      <P Name="propeller_mass_unit">kg</P>
+      <P Name="propeller_mass_conf">compiletime</P>
+      <P Name="efficiency_sensor">false</P>
+      <P Name="efficiency_sensor_unit">1</P>
+      <P Name="efficiency_sensor_conf">compiletime</P>
+      <P Name="n_thr">0.001</P>
+      <P Name="n_thr_unit">Hz</P>
+      <P Name="n_thr_conf">compiletime</P>
+      <P Name="k_thr">0.001</P>
+      <P Name="k_thr_unit">1</P>
+      <P Name="k_thr_conf">compiletime</P>
+      <P Name="P_thr">0.01</P>
+      <P Name="P_thr_unit">W</P>
+      <P Name="P_thr_conf">compiletime</P>
+      <P Name="operation_check">simscape.enum.assert.action.warn</P>
+      <P Name="operation_check_unit">1</P>
+      <P Name="operation_check_conf">compiletime</P>
+      <P Name="expose_port_C">false</P>
+      <P Name="expose_port_C_unit">1</P>
+      <P Name="expose_port_C_conf">compiletime</P>
+      <P Name="w_specify">off</P>
+      <P Name="w_priority">None</P>
+      <P Name="w">0</P>
+      <P Name="w_unit">rad/s</P>
+      <P Name="w_nominal_specify">off</P>
+      <P Name="w_nominal_value">1</P>
+      <P Name="w_nominal_unit">rad/s</P>
+      <P Name="Q_specify">off</P>
+      <P Name="Q_priority">None</P>
+      <P Name="Q">0</P>
+      <P Name="Q_unit">N*m</P>
+      <P Name="Q_nominal_specify">off</P>
+      <P Name="Q_nominal_value">1</P>
+      <P Name="Q_nominal_unit">N*m</P>
+      <P Name="v_specify">off</P>
+      <P Name="v_priority">None</P>
+      <P Name="v">0</P>
+      <P Name="v_unit">m/s</P>
+      <P Name="v_nominal_specify">off</P>
+      <P Name="v_nominal_value">1</P>
+      <P Name="v_nominal_unit">m/s</P>
+      <P Name="thrust_specify">off</P>
+      <P Name="thrust_priority">None</P>
+      <P Name="thrust">0</P>
+      <P Name="thrust_unit">N</P>
+      <P Name="thrust_nominal_specify">off</P>
+      <P Name="thrust_nominal_value">1</P>
+      <P Name="thrust_nominal_unit">N</P>
+    </InstanceData>
+    <PortProperties>
+      <Port Type="lconn" Index="1">
+        <P Name="PortId">Q_out</P>
+      </Port>
+      <Port Type="lconn" Index="2">
+        <P Name="PortId">Th_out</P>
+      </Port>
+      <Port Type="rconn" Index="1">
+        <P Name="PortId">w_in</P>
+      </Port>
+      <Port Type="rconn" Index="2">
+        <P Name="PortId">Va_in</P>
+      </Port>
+      <Port Type="rconn" Index="3">
+        <P Name="PortId">Vv_in</P>
+      </Port>
+    </PortProperties>
+  </Block>
+  <Block BlockType="Constant" Name="Constant" SID="14">
+    <P Name="Position">[200, 330, 230, 360]</P>
+    <P Name="ZOrder">312</P>
+    <P Name="Value">4000</P>
+  </Block>
+  <Block BlockType="Constant" Name="Constant1" SID="175">
+    <P Name="Position">[65, 120, 95, 150]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="Value">0</P>
+  </Block>
+  <Block BlockType="Constant" Name="Constant2" SID="178">
+    <P Name="Position">[65, 180, 95, 210]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="Value">0</P>
+  </Block>
+  <Block BlockType="Constant" Name="Constant3" SID="184">
+    <P Name="Position">[65, 60, 95, 90]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="Value">0.02</P>
+  </Block>
+  <Block BlockType="Reference" Name="File Solid" SID="68">
+    <PortCounts lconn="1" rconn="1"/>
+    <P Name="Position">[-185, 280, -145, 320]</P>
+    <P Name="ZOrder">338</P>
+    <P Name="BackgroundColor">automatic</P>
+    <P Name="LibraryVersion">26.21</P>
+    <P Name="SourceBlock">sm_lib/Body Elements/File Solid</P>
+    <P Name="SourceType">File Solid</P>
+    <InstanceData>
+      <P Name="LogSimulationData">off</P>
+      <P Name="SimscapeInstrumentationLogging">off</P>
+      <P Name="SimscapeInstrumentationVariables" Ref="bdmxdata:SimscapeInstrumentationVariables_68"/>
+      <P Name="ExtGeomFileName">C:\Users\DELL\Downloads\drone_lat.STEP</P>
+      <P Name="UnitType">FromFile</P>
+      <P Name="ExtGeomFileUnits">m</P>
+      <P Name="StepReaderType">HEX</P>
+      <P Name="ExportConvexHullGeometry">on</P>
+      <P Name="InertiaType">Custom</P>
+      <P Name="BasedOnType">Density</P>
+      <P Name="Density">1000</P>
+      <P Name="Density_conf">compiletime</P>
+      <P Name="DensityUnits">kg/m^3</P>
+      <P Name="Mass">5.43</P>
+      <P Name="Mass_conf">compiletime</P>
+      <P Name="MassUnits">kg</P>
+      <P Name="CenterOfMass">[0.06 -0.07 -3.32]</P>
+      <P Name="CenterOfMass_conf">compiletime</P>
+      <P Name="CenterOfMassUnits">mm</P>
+      <P Name="MomentsOfInertia">[0.07122 0.07151 0.12749]</P>
+      <P Name="MomentsOfInertia_conf">compiletime</P>
+      <P Name="MomentsOfInertiaUnits">kg*m^2</P>
+      <P Name="ProductsOfInertia">[-10e-05 2.873e-05 -0.000217]</P>
+      <P Name="ProductsOfInertia_conf">compiletime</P>
+      <P Name="ProductsOfInertiaUnits">kg*m^2</P>
+      <P Name="GraphicType">FromGeometry</P>
+      <P Name="MarkerShape">Sphere</P>
+      <P Name="MarkerSize">10</P>
+      <P Name="MarkerSize_conf">compiletime</P>
+      <P Name="GraphicVisPropType">SimpleVisualProperties</P>
+      <P Name="GraphicDiffuseColor">[0.5 0.5 0.5]</P>
+      <P Name="GraphicDiffuseColor_conf">compiletime</P>
+      <P Name="GraphicOpacity">1</P>
+      <P Name="GraphicOpacity_conf">compiletime</P>
+      <P Name="GraphicSpecularColor">[0.5 0.5 0.5 1.0]</P>
+      <P Name="GraphicSpecularColor_conf">compiletime</P>
+      <P Name="GraphicAmbientColor">[0.15 0.15 0.15 1.0]</P>
+      <P Name="GraphicAmbientColor_conf">compiletime</P>
+      <P Name="GraphicEmissiveColor">[0.0 0.0 0.0 1.0]</P>
+      <P Name="GraphicEmissiveColor_conf">compiletime</P>
+      <P Name="GraphicShininess">75</P>
+      <P Name="GraphicShininess_conf">compiletime</P>
+      <P Name="DoExposeReferenceFrame">on</P>
+      <P Name="SerializedFrames">&lt;Frames/&gt;</P>
+    </InstanceData>
+    <PortProperties>
+      <Port Type="lconn" Index="1">
+        <P Name="PortId">CH</P>
+      </Port>
+      <Port Type="rconn" Index="1">
+        <P Name="PortId">R</P>
+      </Port>
+    </PortProperties>
+  </Block>
+  <Block BlockType="Gain" Name="Gain1" SID="49">
+    <P Name="Position">[560, 80, 590, 110]</P>
+    <P Name="ZOrder">331</P>
+    <P Name="Gain">2*pi/60</P>
+    <P Name="OutMax">[3]</P>
+  </Block>
+  <Block BlockType="Gain" Name="Gain2" SID="101">
+    <P Name="Position">[565, 180, 595, 210]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="Gain">-2*pi/60</P>
+    <P Name="OutMax">[3]</P>
+  </Block>
+  <Block BlockType="Gain" Name="Gain3" SID="105">
+    <P Name="Position">[575, 295, 605, 325]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="Gain">-2*pi/60</P>
+    <P Name="OutMax">[3]</P>
+  </Block>
+  <Block BlockType="Gain" Name="Gain4" SID="107">
+    <P Name="Position">[575, 380, 605, 410]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="Gain">2*pi/60</P>
+    <P Name="OutMax">[3]</P>
+  </Block>
+  <Block BlockType="SubSystem" Name="MATLAB Function" SID="169">
+    <PortCounts in="1" out="3"/>
+    <P Name="Position">[65, 406, 135, 454]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="ErrorFcn">Stateflow.Translate.translate</P>
+    <P Name="PermitHierarchicalResolution">ExplicitOnly</P>
+    <P Name="TreatAsAtomicUnit">on</P>
+    <P Name="SFBlockType">MATLAB Function</P>
+    <P Name="ContentPreviewEnabled">on</P>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="PropagatedSignals">rotX</P>
+      </Port>
+      <Port Type="out" Index="2">
+        <P Name="PropagatedSignals">rotY</P>
+      </Port>
+      <Port Type="out" Index="3">
+        <P Name="PropagatedSignals">rotZ</P>
+      </Port>
+    </PortProperties>
+    <System Ref="system_169"/>
+  </Block>
+  <Block BlockType="SubSystem" Name="MATLAB Function1" SID="181">
+    <PortCounts in="4" out="4"/>
+    <P Name="Position">[380, 141, 485, 219]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="ErrorFcn">Stateflow.Translate.translate</P>
+    <P Name="PermitHierarchicalResolution">ExplicitOnly</P>
+    <P Name="TreatAsAtomicUnit">on</P>
+    <P Name="SFBlockType">MATLAB Function</P>
+    <P Name="ContentPreviewEnabled">on</P>
+    <PortProperties>
+      <Port Type="out" Index="1">
+        <P Name="PropagatedSignals">rpm_M1</P>
+      </Port>
+      <Port Type="out" Index="2">
+        <P Name="PropagatedSignals">rpm_M2</P>
+      </Port>
+      <Port Type="out" Index="3">
+        <P Name="PropagatedSignals">rpm_M3</P>
+      </Port>
+      <Port Type="out" Index="4">
+        <P Name="PropagatedSignals">rpm_M4</P>
+      </Port>
+    </PortProperties>
+    <System Ref="system_181"/>
+  </Block>
+  <Block BlockType="Reference" Name="Mechanism&#xA;Configuration" SID="40">
+    <PortCounts rconn="1"/>
+    <P Name="Position">[-140, 455, -100, 495]</P>
+    <P Name="ZOrder">322</P>
+    <P Name="HideAutomaticName">off</P>
+    <P Name="LibraryVersion">26.21</P>
+    <P Name="SourceBlock">sm_lib/Utilities/Mechanism
+Configuration</P>
+    <P Name="SourceType">Mechanism
+Configuration</P>
+    <InstanceData>
+      <P Name="LogSimulationData">off</P>
+      <P Name="SimscapeInstrumentationLogging">off</P>
+      <P Name="SimscapeInstrumentationVariables" Ref="bdmxdata:SimscapeInstrumentationVariables_40"/>
+      <P Name="UniformGravity">Constant</P>
+      <P Name="GravityVector">[0 0 -g]</P>
+      <P Name="GravityVector_conf">compiletime</P>
+      <P Name="GravityVectorUnits">m/s^2</P>
+      <P Name="LinearizationDelta">0.001</P>
+      <P Name="JointModeTransitionNonlinearIterations">2</P>
+    </InstanceData>
+    <PortProperties>
+      <Port Type="rconn" Index="1">
+        <P Name="PortId">C</P>
+      </Port>
+    </PortProperties>
+  </Block>
+  <Block BlockType="Sum" Name="Minus1" SID="176">
+    <PortCounts in="2" out="1"/>
+    <P Name="Position">[180, 127, 210, 158]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="IconShape">rectangular</P>
+    <P Name="Inputs">+-</P>
+  </Block>
+  <Block BlockType="Sum" Name="Minus2" SID="179">
+    <PortCounts in="2" out="1"/>
+    <P Name="Position">[180, 187, 210, 218]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="IconShape">rectangular</P>
+    <P Name="Inputs">+-</P>
+  </Block>
+  <Block BlockType="Sum" Name="Minus3" SID="185">
+    <PortCounts in="2" out="1"/>
+    <P Name="Position">[180, 67, 210, 98]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="IconShape">rectangular</P>
+    <P Name="Inputs">+-</P>
+  </Block>
+  <Block BlockType="Reference" Name="PID Controller (2DOF)" SID="231">
+    <PortCounts in="2" out="1"/>
+    <P Name="Position">[205, 260, 260, 300]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="LibrarySourceBlock">simulink/Continuous/PID Controller (2DOF)</P>
+    <P Name="LibraryVersion">13.2</P>
+    <P Name="SourceBlock">slpidlib/PID Controller (2DOF)</P>
+    <P Name="SourceType">PID 2dof</P>
+    <InstanceData>
+      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
+      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
+      <P Name="RTWMemSecDataConstants">Inherit from model</P>
+      <P Name="RTWMemSecDataInternal">Inherit from model</P>
+      <P Name="RTWMemSecDataParameters">Inherit from model</P>
+      <P Name="ContentPreviewEnabled">on</P>
+      <P Name="Controller">PID</P>
+      <P Name="Form">Parallel</P>
+      <P Name="TimeDomain">Continuous-time</P>
+      <P Name="UseExternalTs">off</P>
+      <P Name="SampleTime">-1</P>
+      <P Name="IntegratorMethod">Forward Euler</P>
+      <P Name="FilterMethod">Forward Euler</P>
+      <P Name="ControllerParametersSource">internal</P>
+      <P Name="P">75</P>
+      <P Name="I">1</P>
+      <P Name="UseKiTs">off</P>
+      <P Name="D">263</P>
+      <P Name="UseExternalDerivativeSource">off</P>
+      <P Name="N">100</P>
+      <P Name="UseFilter">on</P>
+      <P Name="b">1</P>
+      <P Name="c">0</P>
+      <P Name="TunerSelectOption">Transfer Function Based (PID Tuner App)</P>
+      <P Name="ZeroCross">on</P>
+      <P Name="InitialConditionSource">internal</P>
+      <P Name="InitialConditionForIntegrator">0</P>
+      <P Name="InitialConditionForFilter">0</P>
+      <P Name="DifferentiatorICPrevScaledInput">0</P>
+      <P Name="ExternalReset">none</P>
+      <P Name="IgnoreLimit">off</P>
+      <P Name="TrackingMode">off</P>
+      <P Name="Kt">1</P>
+      <P Name="LimitOutput">off</P>
+      <P Name="SatLimitsSource">internal</P>
+      <P Name="UpperSaturationLimit">inf</P>
+      <P Name="LowerSaturationLimit">-inf</P>
+      <P Name="LinearizeAsGain">on</P>
+      <P Name="AntiWindupMode">none</P>
+      <P Name="Kb">1</P>
+      <P Name="LimitIntegrator">off</P>
+      <P Name="UpperIntegratorSaturationLimit">inf</P>
+      <P Name="LowerIntegratorSaturationLimit">-inf</P>
+      <P Name="RndMeth">Floor</P>
+      <P Name="SaturateOnIntegerOverflow">off</P>
+      <P Name="LockScale">off</P>
+      <P Name="PGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="PProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="POutMin">[]</P>
+      <P Name="POutMax">[]</P>
+      <P Name="IGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="IProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="IOutMin">[]</P>
+      <P Name="IOutMax">[]</P>
+      <P Name="DGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DOutMin">[]</P>
+      <P Name="DOutMax">[]</P>
+      <P Name="NGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="NProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="NOutMin">[]</P>
+      <P Name="NOutMax">[]</P>
+      <P Name="bGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="bProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="bOutMin">[]</P>
+      <P Name="bOutMax">[]</P>
+      <P Name="cGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="cProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="cOutMin">[]</P>
+      <P Name="cOutMax">[]</P>
+      <P Name="SumOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumOutMin">[]</P>
+      <P Name="SumOutMax">[]</P>
+      <P Name="SaturationOutDataTypeStr">Inherit: Same as input</P>
+      <P Name="SaturationOutMin">[]</P>
+      <P Name="SaturationOutMax">[]</P>
+      <P Name="PParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="PParamMin">[]</P>
+      <P Name="PParamMax">[]</P>
+      <P Name="IParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="IParamMin">[]</P>
+      <P Name="IParamMax">[]</P>
+      <P Name="DParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DParamMin">[]</P>
+      <P Name="DParamMax">[]</P>
+      <P Name="NParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="NParamMin">[]</P>
+      <P Name="NParamMax">[]</P>
+      <P Name="bParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="bParamMin">[]</P>
+      <P Name="bParamMax">[]</P>
+      <P Name="cParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="cParamMin">[]</P>
+      <P Name="cParamMax">[]</P>
+      <P Name="KbParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="KbParamMin">[]</P>
+      <P Name="KbParamMax">[]</P>
+      <P Name="KtParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="KtParamMin">[]</P>
+      <P Name="KtParamMax">[]</P>
+      <P Name="KbOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="KbOutMin">[]</P>
+      <P Name="KbOutMax">[]</P>
+      <P Name="KtOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="KtOutMin">[]</P>
+      <P Name="KtOutMax">[]</P>
+      <P Name="IntegratorOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="IntegratorOutMin">[]</P>
+      <P Name="IntegratorOutMax">[]</P>
+      <P Name="FilterOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterOutMin">[]</P>
+      <P Name="FilterOutMax">[]</P>
+      <P Name="SumI1OutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI1OutMin">[]</P>
+      <P Name="SumI1OutMax">[]</P>
+      <P Name="SumI2OutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI2OutMin">[]</P>
+      <P Name="SumI2OutMax">[]</P>
+      <P Name="SumI3OutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI3OutMin">[]</P>
+      <P Name="SumI3OutMax">[]</P>
+      <P Name="SumI4OutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI4OutMin">[]</P>
+      <P Name="SumI4OutMax">[]</P>
+      <P Name="SumDOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumDOutMin">[]</P>
+      <P Name="SumDOutMax">[]</P>
+      <P Name="Sum1OutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="Sum1OutMin">[]</P>
+      <P Name="Sum1OutMax">[]</P>
+      <P Name="Sum2OutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="Sum2OutMin">[]</P>
+      <P Name="Sum2OutMax">[]</P>
+      <P Name="Sum3OutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="Sum3OutMin">[]</P>
+      <P Name="Sum3OutMax">[]</P>
+      <P Name="SumAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI1AccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI2AccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI3AccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI4AccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumDAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="Sum1AccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="Sum2AccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="Sum3AccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DifferentiatorOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DifferentiatorOutMin">[]</P>
+      <P Name="DifferentiatorOutMax">[]</P>
+      <P Name="FilterDiffNumProductOutputDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterDiffDenProductOutputDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterDiffNumAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterDiffDenAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterDiffOutCoefDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterDiffOutCoefMin">[]</P>
+      <P Name="FilterDiffOutCoefMax">[]</P>
+      <P Name="ReciprocalOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="ReciprocalOutMin">[]</P>
+      <P Name="ReciprocalOutMax">[]</P>
+      <P Name="SumDenOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumDenOutMin">[]</P>
+      <P Name="SumDenOutMax">[]</P>
+      <P Name="SumNumOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumNumOutMin">[]</P>
+      <P Name="SumNumOutMax">[]</P>
+      <P Name="SumDenAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumNumAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DivideOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DivideOutMin">[]</P>
+      <P Name="DivideOutMax">[]</P>
+      <P Name="UdiffTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="UdiffTsProdOutMin">[]</P>
+      <P Name="UdiffTsProdOutMax">[]</P>
+      <P Name="NTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="NTsProdOutMin">[]</P>
+      <P Name="NTsProdOutMax">[]</P>
+      <P Name="UintegralTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="UintegralTsProdOutMin">[]</P>
+      <P Name="UintegralTsProdOutMax">[]</P>
+      <P Name="UngainTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="UngainTsProdOutMin">[]</P>
+      <P Name="UngainTsProdOutMax">[]</P>
+      <P Name="ClampingZeroOutDataTypeStr">Inherit: Inherit via back propagation</P>
+      <P Name="ClampingZeroOutMin">[]</P>
+      <P Name="ClampingZeroOutMax">[]</P>
+      <P Name="FilterDenConstantOutDataTypeStr">Inherit: Inherit via back propagation</P>
+      <P Name="FilterDenConstantOutMin">[]</P>
+      <P Name="FilterDenConstantOutMax">[]</P>
+      <P Name="PCopyOutDataTypeStr">Inherit: Inherit via back propagation</P>
+      <P Name="PCopyOutMin">[]</P>
+      <P Name="PCopyOutMax">[]</P>
+      <P Name="NCopyOutDataTypeStr">Inherit: Inherit via back propagation</P>
+      <P Name="NCopyOutMin">[]</P>
+      <P Name="NCopyOutMax">[]</P>
+      <P Name="IntegratorContinuousStateAttributes">&apos;&apos;</P>
+      <P Name="IntegratorStateMustResolveToSignalObject">off</P>
+      <P Name="IntegratorRTWStateStorageClass">Auto</P>
+      <P Name="FilterContinuousStateAttributes">&apos;&apos;</P>
+      <P Name="FilterStateMustResolveToSignalObject">off</P>
+      <P Name="FilterRTWStateStorageClass">Auto</P>
+      <P Name="ParallelPVariant">InternalParameters</P>
+      <P Name="IdealPVariant">Disabled</P>
+      <P Name="IVariant">InternalParameters</P>
+      <P Name="DVariant">InternalParameters</P>
+      <P Name="bVariant">InternalParameters</P>
+      <P Name="cVariant">InternalParameters</P>
+      <P Name="IntegratorVariant">Continuous</P>
+      <P Name="SatVariant">Disabled</P>
+      <P Name="AWVariant">Passthrough</P>
+      <P Name="PCopyVariant">Disabled</P>
+      <P Name="TRVariant">Disabled</P>
+      <P Name="FdbkBlocksVariant">Forward</P>
+      <P Name="IdealPFdbkVariant">Disabled</P>
+      <P Name="SatFdbkVariant">Disabled</P>
+      <P Name="DerivativeFilterVariant">ContFilter</P>
+      <P Name="NVariant">InternalParameters</P>
+      <P Name="NCopyVariant">Disabled</P>
+      <P Name="FilterICVariant">InternalICsFilter</P>
+      <P Name="IntegratorICVariant">InternalICs</P>
+      <P Name="ExternalResetVariant">Disabled</P>
+      <P Name="TRSumVariant">Passthrough</P>
+      <P Name="SumFdbkVariant">Disabled</P>
+      <P Name="SumVariant">Sum_PID</P>
+      <P Name="TsampFilterVariant">InternalTs</P>
+      <P Name="TsampNgainVariant">Passthrough</P>
+      <P Name="TsampIntegralVariant">Disabled_SignalSpec</P>
+      <P Name="ExternalSaturationOutDataTypeStr">Inherit: Same as second input</P>
+      <P Name="DerivativeSourceVariant">ErrorSignal</P>
+      <P Name="InitialConditionSetting">Auto</P>
+      <P Name="PreIntVariant">InternalPreInt</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Reference" Name="PID Controller1" SID="177">
+    <PortCounts in="1" out="1"/>
+    <P Name="Position">[255, 127, 295, 163]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="LibrarySourceBlock">simulink/Continuous/PID Controller</P>
+    <P Name="LibraryVersion">13.2</P>
+    <P Name="SourceBlock">slpidlib/PID Controller</P>
+    <P Name="SourceType">PID 1dof</P>
+    <InstanceData>
+      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
+      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
+      <P Name="RTWMemSecDataConstants">Inherit from model</P>
+      <P Name="RTWMemSecDataInternal">Inherit from model</P>
+      <P Name="RTWMemSecDataParameters">Inherit from model</P>
+      <P Name="ContentPreviewEnabled">on</P>
+      <P Name="Controller">PID</P>
+      <P Name="Form">Parallel</P>
+      <P Name="TimeDomain">Continuous-time</P>
+      <P Name="UseExternalTs">off</P>
+      <P Name="SampleTime">-1</P>
+      <P Name="IntegratorMethod">Forward Euler</P>
+      <P Name="FilterMethod">Forward Euler</P>
+      <P Name="ControllerParametersSource">internal</P>
+      <P Name="P">300</P>
+      <P Name="I">0</P>
+      <P Name="UseKiTs">off</P>
+      <P Name="D">100</P>
+      <P Name="UseExternalDerivativeSource">off</P>
+      <P Name="N">100</P>
+      <P Name="UseFilter">on</P>
+      <P Name="TunerSelectOption">Transfer Function Based (PID Tuner App)</P>
+      <P Name="ZeroCross">on</P>
+      <P Name="InitialConditionSource">internal</P>
+      <P Name="InitialConditionForIntegrator">0</P>
+      <P Name="InitialConditionForFilter">0</P>
+      <P Name="DifferentiatorICPrevScaledInput">0</P>
+      <P Name="ExternalReset">none</P>
+      <P Name="IgnoreLimit">off</P>
+      <P Name="TrackingMode">off</P>
+      <P Name="Kt">1</P>
+      <P Name="LimitOutput">off</P>
+      <P Name="SatLimitsSource">internal</P>
+      <P Name="UpperSaturationLimit">inf</P>
+      <P Name="LowerSaturationLimit">-inf</P>
+      <P Name="LinearizeAsGain">on</P>
+      <P Name="AntiWindupMode">none</P>
+      <P Name="Kb">1</P>
+      <P Name="LimitIntegrator">off</P>
+      <P Name="UpperIntegratorSaturationLimit">inf</P>
+      <P Name="LowerIntegratorSaturationLimit">-inf</P>
+      <P Name="RndMeth">Floor</P>
+      <P Name="SaturateOnIntegerOverflow">off</P>
+      <P Name="LockScale">off</P>
+      <P Name="PGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="PProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="POutMin">[]</P>
+      <P Name="POutMax">[]</P>
+      <P Name="IGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="IProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="IOutMin">[]</P>
+      <P Name="IOutMax">[]</P>
+      <P Name="DGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DOutMin">[]</P>
+      <P Name="DOutMax">[]</P>
+      <P Name="NGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="NProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="NOutMin">[]</P>
+      <P Name="NOutMax">[]</P>
+      <P Name="SumOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumOutMin">[]</P>
+      <P Name="SumOutMax">[]</P>
+      <P Name="SaturationOutDataTypeStr">Inherit: Same as input</P>
+      <P Name="SaturationOutMin">[]</P>
+      <P Name="SaturationOutMax">[]</P>
+      <P Name="PParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="PParamMin">[]</P>
+      <P Name="PParamMax">[]</P>
+      <P Name="IParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="IParamMin">[]</P>
+      <P Name="IParamMax">[]</P>
+      <P Name="DParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DParamMin">[]</P>
+      <P Name="DParamMax">[]</P>
+      <P Name="NParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="NParamMin">[]</P>
+      <P Name="NParamMax">[]</P>
+      <P Name="KbParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="KbParamMin">[]</P>
+      <P Name="KbParamMax">[]</P>
+      <P Name="KtParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="KtParamMin">[]</P>
+      <P Name="KtParamMax">[]</P>
+      <P Name="KbOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="KbOutMin">[]</P>
+      <P Name="KbOutMax">[]</P>
+      <P Name="KtOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="KtOutMin">[]</P>
+      <P Name="KtOutMax">[]</P>
+      <P Name="IntegratorOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="IntegratorOutMin">[]</P>
+      <P Name="IntegratorOutMax">[]</P>
+      <P Name="FilterOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterOutMin">[]</P>
+      <P Name="FilterOutMax">[]</P>
+      <P Name="SumI1OutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI1OutMin">[]</P>
+      <P Name="SumI1OutMax">[]</P>
+      <P Name="SumI2OutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI2OutMin">[]</P>
+      <P Name="SumI2OutMax">[]</P>
+      <P Name="SumI3OutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI3OutMin">[]</P>
+      <P Name="SumI3OutMax">[]</P>
+      <P Name="SumI4OutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI4OutMin">[]</P>
+      <P Name="SumI4OutMax">[]</P>
+      <P Name="SumDOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumDOutMin">[]</P>
+      <P Name="SumDOutMax">[]</P>
+      <P Name="SumAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI1AccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI2AccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI3AccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI4AccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumDAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DifferentiatorOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DifferentiatorOutMin">[]</P>
+      <P Name="DifferentiatorOutMax">[]</P>
+      <P Name="FilterDiffNumProductOutputDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterDiffDenProductOutputDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterDiffNumAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterDiffDenAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterDiffOutCoefDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterDiffOutCoefMin">[]</P>
+      <P Name="FilterDiffOutCoefMax">[]</P>
+      <P Name="ReciprocalOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="ReciprocalOutMin">[]</P>
+      <P Name="ReciprocalOutMax">[]</P>
+      <P Name="SumDenOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumDenOutMin">[]</P>
+      <P Name="SumDenOutMax">[]</P>
+      <P Name="SumNumOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumNumOutMin">[]</P>
+      <P Name="SumNumOutMax">[]</P>
+      <P Name="SumDenAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumNumAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DivideOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DivideOutMin">[]</P>
+      <P Name="DivideOutMax">[]</P>
+      <P Name="UdiffTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="UdiffTsProdOutMin">[]</P>
+      <P Name="UdiffTsProdOutMax">[]</P>
+      <P Name="NTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="NTsProdOutMin">[]</P>
+      <P Name="NTsProdOutMax">[]</P>
+      <P Name="UintegralTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="UintegralTsProdOutMin">[]</P>
+      <P Name="UintegralTsProdOutMax">[]</P>
+      <P Name="UngainTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="UngainTsProdOutMin">[]</P>
+      <P Name="UngainTsProdOutMax">[]</P>
+      <P Name="ClampingZeroOutDataTypeStr">Inherit: Inherit via back propagation</P>
+      <P Name="ClampingZeroOutMin">[]</P>
+      <P Name="ClampingZeroOutMax">[]</P>
+      <P Name="FilterDenConstantOutDataTypeStr">Inherit: Inherit via back propagation</P>
+      <P Name="FilterDenConstantOutMin">[]</P>
+      <P Name="FilterDenConstantOutMax">[]</P>
+      <P Name="PCopyOutDataTypeStr">Inherit: Inherit via back propagation</P>
+      <P Name="PCopyOutMin">[]</P>
+      <P Name="PCopyOutMax">[]</P>
+      <P Name="NCopyOutDataTypeStr">Inherit: Inherit via back propagation</P>
+      <P Name="NCopyOutMin">[]</P>
+      <P Name="NCopyOutMax">[]</P>
+      <P Name="IntegratorContinuousStateAttributes">&apos;&apos;</P>
+      <P Name="IntegratorStateMustResolveToSignalObject">off</P>
+      <P Name="IntegratorRTWStateStorageClass">Auto</P>
+      <P Name="FilterContinuousStateAttributes">&apos;&apos;</P>
+      <P Name="FilterStateMustResolveToSignalObject">off</P>
+      <P Name="FilterRTWStateStorageClass">Auto</P>
+      <P Name="ParallelPVariant">InternalParameters</P>
+      <P Name="IdealPVariant">Disabled</P>
+      <P Name="IVariant">InternalParameters</P>
+      <P Name="DVariant">InternalParameters</P>
+      <P Name="IntegratorVariant">Continuous</P>
+      <P Name="SatVariant">Disabled</P>
+      <P Name="AWVariant">Passthrough</P>
+      <P Name="PCopyVariant">Disabled</P>
+      <P Name="TRVariant">Disabled</P>
+      <P Name="FdbkBlocksVariant">Forward</P>
+      <P Name="IdealPFdbkVariant">Disabled</P>
+      <P Name="SatFdbkVariant">Disabled</P>
+      <P Name="DerivativeFilterVariant">ContFilter</P>
+      <P Name="NVariant">InternalParameters</P>
+      <P Name="NCopyVariant">Disabled</P>
+      <P Name="FilterICVariant">InternalICsFilter</P>
+      <P Name="IntegratorICVariant">InternalICs</P>
+      <P Name="ExternalResetVariant">Disabled</P>
+      <P Name="TRSumVariant">Passthrough</P>
+      <P Name="SumFdbkVariant">Disabled</P>
+      <P Name="SumVariant">Sum_PID</P>
+      <P Name="TsampFilterVariant">InternalTs</P>
+      <P Name="TsampNgainVariant">Passthrough</P>
+      <P Name="TsampIntegralVariant">Disabled_SignalSpec</P>
+      <P Name="ExternalSaturationOutDataTypeStr">Inherit: Same as second input</P>
+      <P Name="DerivativeSourceVariant">ErrorSignal</P>
+      <P Name="InitialConditionSetting">Auto</P>
+      <P Name="PreIntVariant">InternalPreInt</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Reference" Name="PID Controller2" SID="180">
+    <PortCounts in="1" out="1"/>
+    <P Name="Position">[255, 187, 295, 223]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="LibrarySourceBlock">simulink/Continuous/PID Controller</P>
+    <P Name="LibraryVersion">13.2</P>
+    <P Name="SourceBlock">slpidlib/PID Controller</P>
+    <P Name="SourceType">PID 1dof</P>
+    <InstanceData>
+      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
+      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
+      <P Name="RTWMemSecDataConstants">Inherit from model</P>
+      <P Name="RTWMemSecDataInternal">Inherit from model</P>
+      <P Name="RTWMemSecDataParameters">Inherit from model</P>
+      <P Name="ContentPreviewEnabled">on</P>
+      <P Name="Controller">PID</P>
+      <P Name="Form">Parallel</P>
+      <P Name="TimeDomain">Continuous-time</P>
+      <P Name="UseExternalTs">off</P>
+      <P Name="SampleTime">-1</P>
+      <P Name="IntegratorMethod">Forward Euler</P>
+      <P Name="FilterMethod">Forward Euler</P>
+      <P Name="ControllerParametersSource">internal</P>
+      <P Name="P">300</P>
+      <P Name="I">0</P>
+      <P Name="UseKiTs">off</P>
+      <P Name="D">100</P>
+      <P Name="UseExternalDerivativeSource">off</P>
+      <P Name="N">100</P>
+      <P Name="UseFilter">on</P>
+      <P Name="TunerSelectOption">Transfer Function Based (PID Tuner App)</P>
+      <P Name="ZeroCross">on</P>
+      <P Name="InitialConditionSource">internal</P>
+      <P Name="InitialConditionForIntegrator">0</P>
+      <P Name="InitialConditionForFilter">0</P>
+      <P Name="DifferentiatorICPrevScaledInput">0</P>
+      <P Name="ExternalReset">none</P>
+      <P Name="IgnoreLimit">off</P>
+      <P Name="TrackingMode">off</P>
+      <P Name="Kt">1</P>
+      <P Name="LimitOutput">off</P>
+      <P Name="SatLimitsSource">internal</P>
+      <P Name="UpperSaturationLimit">inf</P>
+      <P Name="LowerSaturationLimit">-inf</P>
+      <P Name="LinearizeAsGain">on</P>
+      <P Name="AntiWindupMode">none</P>
+      <P Name="Kb">1</P>
+      <P Name="LimitIntegrator">off</P>
+      <P Name="UpperIntegratorSaturationLimit">inf</P>
+      <P Name="LowerIntegratorSaturationLimit">-inf</P>
+      <P Name="RndMeth">Floor</P>
+      <P Name="SaturateOnIntegerOverflow">off</P>
+      <P Name="LockScale">off</P>
+      <P Name="PGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="PProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="POutMin">[]</P>
+      <P Name="POutMax">[]</P>
+      <P Name="IGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="IProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="IOutMin">[]</P>
+      <P Name="IOutMax">[]</P>
+      <P Name="DGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DOutMin">[]</P>
+      <P Name="DOutMax">[]</P>
+      <P Name="NGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="NProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="NOutMin">[]</P>
+      <P Name="NOutMax">[]</P>
+      <P Name="SumOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumOutMin">[]</P>
+      <P Name="SumOutMax">[]</P>
+      <P Name="SaturationOutDataTypeStr">Inherit: Same as input</P>
+      <P Name="SaturationOutMin">[]</P>
+      <P Name="SaturationOutMax">[]</P>
+      <P Name="PParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="PParamMin">[]</P>
+      <P Name="PParamMax">[]</P>
+      <P Name="IParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="IParamMin">[]</P>
+      <P Name="IParamMax">[]</P>
+      <P Name="DParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DParamMin">[]</P>
+      <P Name="DParamMax">[]</P>
+      <P Name="NParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="NParamMin">[]</P>
+      <P Name="NParamMax">[]</P>
+      <P Name="KbParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="KbParamMin">[]</P>
+      <P Name="KbParamMax">[]</P>
+      <P Name="KtParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="KtParamMin">[]</P>
+      <P Name="KtParamMax">[]</P>
+      <P Name="KbOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="KbOutMin">[]</P>
+      <P Name="KbOutMax">[]</P>
+      <P Name="KtOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="KtOutMin">[]</P>
+      <P Name="KtOutMax">[]</P>
+      <P Name="IntegratorOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="IntegratorOutMin">[]</P>
+      <P Name="IntegratorOutMax">[]</P>
+      <P Name="FilterOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterOutMin">[]</P>
+      <P Name="FilterOutMax">[]</P>
+      <P Name="SumI1OutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI1OutMin">[]</P>
+      <P Name="SumI1OutMax">[]</P>
+      <P Name="SumI2OutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI2OutMin">[]</P>
+      <P Name="SumI2OutMax">[]</P>
+      <P Name="SumI3OutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI3OutMin">[]</P>
+      <P Name="SumI3OutMax">[]</P>
+      <P Name="SumI4OutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI4OutMin">[]</P>
+      <P Name="SumI4OutMax">[]</P>
+      <P Name="SumDOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumDOutMin">[]</P>
+      <P Name="SumDOutMax">[]</P>
+      <P Name="SumAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI1AccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI2AccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI3AccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI4AccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumDAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DifferentiatorOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DifferentiatorOutMin">[]</P>
+      <P Name="DifferentiatorOutMax">[]</P>
+      <P Name="FilterDiffNumProductOutputDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterDiffDenProductOutputDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterDiffNumAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterDiffDenAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterDiffOutCoefDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterDiffOutCoefMin">[]</P>
+      <P Name="FilterDiffOutCoefMax">[]</P>
+      <P Name="ReciprocalOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="ReciprocalOutMin">[]</P>
+      <P Name="ReciprocalOutMax">[]</P>
+      <P Name="SumDenOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumDenOutMin">[]</P>
+      <P Name="SumDenOutMax">[]</P>
+      <P Name="SumNumOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumNumOutMin">[]</P>
+      <P Name="SumNumOutMax">[]</P>
+      <P Name="SumDenAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumNumAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DivideOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DivideOutMin">[]</P>
+      <P Name="DivideOutMax">[]</P>
+      <P Name="UdiffTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="UdiffTsProdOutMin">[]</P>
+      <P Name="UdiffTsProdOutMax">[]</P>
+      <P Name="NTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="NTsProdOutMin">[]</P>
+      <P Name="NTsProdOutMax">[]</P>
+      <P Name="UintegralTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="UintegralTsProdOutMin">[]</P>
+      <P Name="UintegralTsProdOutMax">[]</P>
+      <P Name="UngainTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="UngainTsProdOutMin">[]</P>
+      <P Name="UngainTsProdOutMax">[]</P>
+      <P Name="ClampingZeroOutDataTypeStr">Inherit: Inherit via back propagation</P>
+      <P Name="ClampingZeroOutMin">[]</P>
+      <P Name="ClampingZeroOutMax">[]</P>
+      <P Name="FilterDenConstantOutDataTypeStr">Inherit: Inherit via back propagation</P>
+      <P Name="FilterDenConstantOutMin">[]</P>
+      <P Name="FilterDenConstantOutMax">[]</P>
+      <P Name="PCopyOutDataTypeStr">Inherit: Inherit via back propagation</P>
+      <P Name="PCopyOutMin">[]</P>
+      <P Name="PCopyOutMax">[]</P>
+      <P Name="NCopyOutDataTypeStr">Inherit: Inherit via back propagation</P>
+      <P Name="NCopyOutMin">[]</P>
+      <P Name="NCopyOutMax">[]</P>
+      <P Name="IntegratorContinuousStateAttributes">&apos;&apos;</P>
+      <P Name="IntegratorStateMustResolveToSignalObject">off</P>
+      <P Name="IntegratorRTWStateStorageClass">Auto</P>
+      <P Name="FilterContinuousStateAttributes">&apos;&apos;</P>
+      <P Name="FilterStateMustResolveToSignalObject">off</P>
+      <P Name="FilterRTWStateStorageClass">Auto</P>
+      <P Name="ParallelPVariant">InternalParameters</P>
+      <P Name="IdealPVariant">Disabled</P>
+      <P Name="IVariant">InternalParameters</P>
+      <P Name="DVariant">InternalParameters</P>
+      <P Name="IntegratorVariant">Continuous</P>
+      <P Name="SatVariant">Disabled</P>
+      <P Name="AWVariant">Passthrough</P>
+      <P Name="PCopyVariant">Disabled</P>
+      <P Name="TRVariant">Disabled</P>
+      <P Name="FdbkBlocksVariant">Forward</P>
+      <P Name="IdealPFdbkVariant">Disabled</P>
+      <P Name="SatFdbkVariant">Disabled</P>
+      <P Name="DerivativeFilterVariant">ContFilter</P>
+      <P Name="NVariant">InternalParameters</P>
+      <P Name="NCopyVariant">Disabled</P>
+      <P Name="FilterICVariant">InternalICsFilter</P>
+      <P Name="IntegratorICVariant">InternalICs</P>
+      <P Name="ExternalResetVariant">Disabled</P>
+      <P Name="TRSumVariant">Passthrough</P>
+      <P Name="SumFdbkVariant">Disabled</P>
+      <P Name="SumVariant">Sum_PID</P>
+      <P Name="TsampFilterVariant">InternalTs</P>
+      <P Name="TsampNgainVariant">Passthrough</P>
+      <P Name="TsampIntegralVariant">Disabled_SignalSpec</P>
+      <P Name="ExternalSaturationOutDataTypeStr">Inherit: Same as second input</P>
+      <P Name="DerivativeSourceVariant">ErrorSignal</P>
+      <P Name="InitialConditionSetting">Auto</P>
+      <P Name="PreIntVariant">InternalPreInt</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Reference" Name="PID Controller3" SID="186">
+    <PortCounts in="1" out="1"/>
+    <P Name="Position">[255, 67, 295, 103]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="LibrarySourceBlock">simulink/Continuous/PID Controller</P>
+    <P Name="LibraryVersion">13.2</P>
+    <P Name="SourceBlock">slpidlib/PID Controller</P>
+    <P Name="SourceType">PID 1dof</P>
+    <InstanceData>
+      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
+      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
+      <P Name="RTWMemSecDataConstants">Inherit from model</P>
+      <P Name="RTWMemSecDataInternal">Inherit from model</P>
+      <P Name="RTWMemSecDataParameters">Inherit from model</P>
+      <P Name="ContentPreviewEnabled">on</P>
+      <P Name="Controller">PID</P>
+      <P Name="Form">Parallel</P>
+      <P Name="TimeDomain">Continuous-time</P>
+      <P Name="UseExternalTs">off</P>
+      <P Name="SampleTime">-1</P>
+      <P Name="IntegratorMethod">Forward Euler</P>
+      <P Name="FilterMethod">Forward Euler</P>
+      <P Name="ControllerParametersSource">internal</P>
+      <P Name="P">300</P>
+      <P Name="I">0</P>
+      <P Name="UseKiTs">off</P>
+      <P Name="D">100</P>
+      <P Name="UseExternalDerivativeSource">off</P>
+      <P Name="N">100</P>
+      <P Name="UseFilter">on</P>
+      <P Name="TunerSelectOption">Transfer Function Based (PID Tuner App)</P>
+      <P Name="ZeroCross">on</P>
+      <P Name="InitialConditionSource">internal</P>
+      <P Name="InitialConditionForIntegrator">0</P>
+      <P Name="InitialConditionForFilter">0</P>
+      <P Name="DifferentiatorICPrevScaledInput">0</P>
+      <P Name="ExternalReset">none</P>
+      <P Name="IgnoreLimit">off</P>
+      <P Name="TrackingMode">off</P>
+      <P Name="Kt">1</P>
+      <P Name="LimitOutput">off</P>
+      <P Name="SatLimitsSource">internal</P>
+      <P Name="UpperSaturationLimit">inf</P>
+      <P Name="LowerSaturationLimit">-inf</P>
+      <P Name="LinearizeAsGain">on</P>
+      <P Name="AntiWindupMode">none</P>
+      <P Name="Kb">1</P>
+      <P Name="LimitIntegrator">off</P>
+      <P Name="UpperIntegratorSaturationLimit">inf</P>
+      <P Name="LowerIntegratorSaturationLimit">-inf</P>
+      <P Name="RndMeth">Floor</P>
+      <P Name="SaturateOnIntegerOverflow">off</P>
+      <P Name="LockScale">off</P>
+      <P Name="PGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="PProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="POutMin">[]</P>
+      <P Name="POutMax">[]</P>
+      <P Name="IGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="IProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="IOutMin">[]</P>
+      <P Name="IOutMax">[]</P>
+      <P Name="DGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DOutMin">[]</P>
+      <P Name="DOutMax">[]</P>
+      <P Name="NGainOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="NProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="NOutMin">[]</P>
+      <P Name="NOutMax">[]</P>
+      <P Name="SumOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumOutMin">[]</P>
+      <P Name="SumOutMax">[]</P>
+      <P Name="SaturationOutDataTypeStr">Inherit: Same as input</P>
+      <P Name="SaturationOutMin">[]</P>
+      <P Name="SaturationOutMax">[]</P>
+      <P Name="PParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="PParamMin">[]</P>
+      <P Name="PParamMax">[]</P>
+      <P Name="IParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="IParamMin">[]</P>
+      <P Name="IParamMax">[]</P>
+      <P Name="DParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DParamMin">[]</P>
+      <P Name="DParamMax">[]</P>
+      <P Name="NParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="NParamMin">[]</P>
+      <P Name="NParamMax">[]</P>
+      <P Name="KbParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="KbParamMin">[]</P>
+      <P Name="KbParamMax">[]</P>
+      <P Name="KtParamDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="KtParamMin">[]</P>
+      <P Name="KtParamMax">[]</P>
+      <P Name="KbOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="KbOutMin">[]</P>
+      <P Name="KbOutMax">[]</P>
+      <P Name="KtOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="KtOutMin">[]</P>
+      <P Name="KtOutMax">[]</P>
+      <P Name="IntegratorOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="IntegratorOutMin">[]</P>
+      <P Name="IntegratorOutMax">[]</P>
+      <P Name="FilterOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterOutMin">[]</P>
+      <P Name="FilterOutMax">[]</P>
+      <P Name="SumI1OutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI1OutMin">[]</P>
+      <P Name="SumI1OutMax">[]</P>
+      <P Name="SumI2OutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI2OutMin">[]</P>
+      <P Name="SumI2OutMax">[]</P>
+      <P Name="SumI3OutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI3OutMin">[]</P>
+      <P Name="SumI3OutMax">[]</P>
+      <P Name="SumI4OutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI4OutMin">[]</P>
+      <P Name="SumI4OutMax">[]</P>
+      <P Name="SumDOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumDOutMin">[]</P>
+      <P Name="SumDOutMax">[]</P>
+      <P Name="SumAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI1AccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI2AccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI3AccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumI4AccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumDAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DifferentiatorOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DifferentiatorOutMin">[]</P>
+      <P Name="DifferentiatorOutMax">[]</P>
+      <P Name="FilterDiffNumProductOutputDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterDiffDenProductOutputDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterDiffNumAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterDiffDenAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterDiffOutCoefDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="FilterDiffOutCoefMin">[]</P>
+      <P Name="FilterDiffOutCoefMax">[]</P>
+      <P Name="ReciprocalOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="ReciprocalOutMin">[]</P>
+      <P Name="ReciprocalOutMax">[]</P>
+      <P Name="SumDenOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumDenOutMin">[]</P>
+      <P Name="SumDenOutMax">[]</P>
+      <P Name="SumNumOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumNumOutMin">[]</P>
+      <P Name="SumNumOutMax">[]</P>
+      <P Name="SumDenAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="SumNumAccumDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DivideOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="DivideOutMin">[]</P>
+      <P Name="DivideOutMax">[]</P>
+      <P Name="UdiffTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="UdiffTsProdOutMin">[]</P>
+      <P Name="UdiffTsProdOutMax">[]</P>
+      <P Name="NTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="NTsProdOutMin">[]</P>
+      <P Name="NTsProdOutMax">[]</P>
+      <P Name="UintegralTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="UintegralTsProdOutMin">[]</P>
+      <P Name="UintegralTsProdOutMax">[]</P>
+      <P Name="UngainTsProdOutDataTypeStr">Inherit: Inherit via internal rule</P>
+      <P Name="UngainTsProdOutMin">[]</P>
+      <P Name="UngainTsProdOutMax">[]</P>
+      <P Name="ClampingZeroOutDataTypeStr">Inherit: Inherit via back propagation</P>
+      <P Name="ClampingZeroOutMin">[]</P>
+      <P Name="ClampingZeroOutMax">[]</P>
+      <P Name="FilterDenConstantOutDataTypeStr">Inherit: Inherit via back propagation</P>
+      <P Name="FilterDenConstantOutMin">[]</P>
+      <P Name="FilterDenConstantOutMax">[]</P>
+      <P Name="PCopyOutDataTypeStr">Inherit: Inherit via back propagation</P>
+      <P Name="PCopyOutMin">[]</P>
+      <P Name="PCopyOutMax">[]</P>
+      <P Name="NCopyOutDataTypeStr">Inherit: Inherit via back propagation</P>
+      <P Name="NCopyOutMin">[]</P>
+      <P Name="NCopyOutMax">[]</P>
+      <P Name="IntegratorContinuousStateAttributes">&apos;&apos;</P>
+      <P Name="IntegratorStateMustResolveToSignalObject">off</P>
+      <P Name="IntegratorRTWStateStorageClass">Auto</P>
+      <P Name="FilterContinuousStateAttributes">&apos;&apos;</P>
+      <P Name="FilterStateMustResolveToSignalObject">off</P>
+      <P Name="FilterRTWStateStorageClass">Auto</P>
+      <P Name="ParallelPVariant">InternalParameters</P>
+      <P Name="IdealPVariant">Disabled</P>
+      <P Name="IVariant">InternalParameters</P>
+      <P Name="DVariant">InternalParameters</P>
+      <P Name="IntegratorVariant">Continuous</P>
+      <P Name="SatVariant">Disabled</P>
+      <P Name="AWVariant">Passthrough</P>
+      <P Name="PCopyVariant">Disabled</P>
+      <P Name="TRVariant">Disabled</P>
+      <P Name="FdbkBlocksVariant">Forward</P>
+      <P Name="IdealPFdbkVariant">Disabled</P>
+      <P Name="SatFdbkVariant">Disabled</P>
+      <P Name="DerivativeFilterVariant">ContFilter</P>
+      <P Name="NVariant">InternalParameters</P>
+      <P Name="NCopyVariant">Disabled</P>
+      <P Name="FilterICVariant">InternalICsFilter</P>
+      <P Name="IntegratorICVariant">InternalICs</P>
+      <P Name="ExternalResetVariant">Disabled</P>
+      <P Name="TRSumVariant">Passthrough</P>
+      <P Name="SumFdbkVariant">Disabled</P>
+      <P Name="SumVariant">Sum_PID</P>
+      <P Name="TsampFilterVariant">InternalTs</P>
+      <P Name="TsampNgainVariant">Passthrough</P>
+      <P Name="TsampIntegralVariant">Disabled_SignalSpec</P>
+      <P Name="ExternalSaturationOutDataTypeStr">Inherit: Same as second input</P>
+      <P Name="DerivativeSourceVariant">ErrorSignal</P>
+      <P Name="InitialConditionSetting">Auto</P>
+      <P Name="PreIntVariant">InternalPreInt</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Reference" Name="PS-Simulink&#xA;Converter" SID="46">
+    <PortCounts out="1" lconn="1"/>
+    <P Name="Position">[105, 362, 120, 378]</P>
+    <P Name="ZOrder">328</P>
+    <P Name="BackgroundColor">automatic</P>
+    <P Name="ShowName">off</P>
+    <P Name="LibraryVersion">13.0</P>
+    <P Name="SourceBlock">nesl_utility/PS-Simulink
+Converter</P>
+    <P Name="SourceType">PS-Simulink
+Converter</P>
+    <InstanceData>
+      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
+      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
+      <P Name="RTWMemSecDataConstants">Inherit from model</P>
+      <P Name="RTWMemSecDataInternal">Inherit from model</P>
+      <P Name="RTWMemSecDataParameters">Inherit from model</P>
+      <P Name="ContentPreviewEnabled">on</P>
+      <P Name="PhysicalDomain">network_engine_domain</P>
+      <P Name="SubClassName">ps_output</P>
+      <P Name="LeftPortType">input</P>
+      <P Name="RightPortType">output</P>
+      <P Name="PseudoPeriodic">off</P>
+      <P Name="Frequencies">[]</P>
+      <P Name="VectorFormat">inherit</P>
+      <P Name="Unit">m</P>
+      <P Name="AffineConversion">off</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Reference" Name="PS-Simulink&#xA;Converter3" SID="173">
+    <PortCounts out="1" lconn="1"/>
+    <P Name="Position">[-20, 397, -5, 413]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="BackgroundColor">automatic</P>
+    <P Name="LibraryVersion">13.0</P>
+    <P Name="SourceBlock">nesl_utility/PS-Simulink
+Converter</P>
+    <P Name="SourceType">PS-Simulink
+Converter</P>
+    <InstanceData>
+      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
+      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
+      <P Name="RTWMemSecDataConstants">Inherit from model</P>
+      <P Name="RTWMemSecDataInternal">Inherit from model</P>
+      <P Name="RTWMemSecDataParameters">Inherit from model</P>
+      <P Name="ContentPreviewEnabled">on</P>
+      <P Name="PhysicalDomain">network_engine_domain</P>
+      <P Name="SubClassName">ps_output</P>
+      <P Name="LeftPortType">input</P>
+      <P Name="RightPortType">output</P>
+      <P Name="PseudoPeriodic">off</P>
+      <P Name="Frequencies">[]</P>
+      <P Name="VectorFormat">inherit</P>
+      <P Name="Unit">inherit</P>
+      <P Name="AffineConversion">off</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Reference" Name="Rigid&#xA;Transform" SID="78">
+    <PortCounts lconn="1" rconn="1"/>
+    <P Name="Position">[940, 175, 980, 215]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="BackgroundColor">automatic</P>
+    <P Name="LibraryVersion">26.21</P>
+    <P Name="SourceBlock">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="SourceType">Rigid
+Transform</P>
+    <InstanceData>
+      <P Name="LogSimulationData">off</P>
+      <P Name="SimscapeInstrumentationLogging">off</P>
+      <P Name="SimscapeInstrumentationVariables" Ref="bdmxdata:SimscapeInstrumentationVariables_78"/>
+      <P Name="RotationMethod">None</P>
+      <P Name="FollAlignAxisA">+X</P>
+      <P Name="BaseAlignAxisA">+Y</P>
+      <P Name="FollAlignAxisB">+Y</P>
+      <P Name="BaseAlignAxisB">+Z</P>
+      <P Name="RotationStandardAxis">+Z</P>
+      <P Name="RotationAngle">0</P>
+      <P Name="RotationAngle_conf">compiletime</P>
+      <P Name="RotationAngleUnits">deg</P>
+      <P Name="RotationArbitraryAxis">[0 0 1]</P>
+      <P Name="RotationArbitraryAxis_conf">compiletime</P>
+      <P Name="RotationSequenceAxes">FollowerAxes</P>
+      <P Name="RotationSequence">XYX</P>
+      <P Name="RotationSequenceAngles">[0 0 0]</P>
+      <P Name="RotationSequenceAngles_conf">compiletime</P>
+      <P Name="RotationSequenceAnglesUnits">deg</P>
+      <P Name="RotationMatrix">[1 0 0;0 1 0;0 0 1]</P>
+      <P Name="RotationMatrix_conf">compiletime</P>
+      <P Name="Quaternion">[1 0 0 0]</P>
+      <P Name="Quaternion_conf">compiletime</P>
+      <P Name="TranslationMethod">Cartesian</P>
+      <P Name="TranslationCartesianOffset">[0.21545, 0.2147, -0.00062]</P>
+      <P Name="TranslationCartesianOffset_conf">compiletime</P>
+      <P Name="TranslationCartesianOffsetUnits">m</P>
+      <P Name="TranslationStandardAxis">+Z</P>
+      <P Name="TranslationStandardOffset">0</P>
+      <P Name="TranslationStandardOffset_conf">compiletime</P>
+      <P Name="TranslationStandardOffsetUnits">m</P>
+      <P Name="TranslationROffset">0</P>
+      <P Name="TranslationROffset_conf">compiletime</P>
+      <P Name="TranslationROffsetUnits">m</P>
+      <P Name="TranslationThetaOffset">0</P>
+      <P Name="TranslationThetaOffset_conf">compiletime</P>
+      <P Name="TranslationThetaOffsetUnits">deg</P>
+      <P Name="TranslationZOffset">0</P>
+      <P Name="TranslationZOffset_conf">compiletime</P>
+      <P Name="TranslationZOffsetUnits">m</P>
+    </InstanceData>
+    <PortProperties>
+      <Port Type="lconn" Index="1">
+        <P Name="PortId">B</P>
+      </Port>
+      <Port Type="rconn" Index="1">
+        <P Name="PortId">F</P>
+      </Port>
+    </PortProperties>
+  </Block>
+  <Block BlockType="Reference" Name="Rigid&#xA;Transform1" SID="84">
+    <PortCounts lconn="1" rconn="1"/>
+    <P Name="Position">[940, 105, 980, 145]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="BackgroundColor">automatic</P>
+    <P Name="LibraryVersion">26.21</P>
+    <P Name="SourceBlock">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="SourceType">Rigid
+Transform</P>
+    <InstanceData>
+      <P Name="LogSimulationData">off</P>
+      <P Name="SimscapeInstrumentationLogging">off</P>
+      <P Name="SimscapeInstrumentationVariables" Ref="bdmxdata:SimscapeInstrumentationVariables_84"/>
+      <P Name="RotationMethod">None</P>
+      <P Name="FollAlignAxisA">+X</P>
+      <P Name="BaseAlignAxisA">+Y</P>
+      <P Name="FollAlignAxisB">+Y</P>
+      <P Name="BaseAlignAxisB">+Z</P>
+      <P Name="RotationStandardAxis">+Z</P>
+      <P Name="RotationAngle">0</P>
+      <P Name="RotationAngle_conf">compiletime</P>
+      <P Name="RotationAngleUnits">deg</P>
+      <P Name="RotationArbitraryAxis">[0 0 1]</P>
+      <P Name="RotationArbitraryAxis_conf">compiletime</P>
+      <P Name="RotationSequenceAxes">FollowerAxes</P>
+      <P Name="RotationSequence">XYX</P>
+      <P Name="RotationSequenceAngles">[0 0 0]</P>
+      <P Name="RotationSequenceAngles_conf">compiletime</P>
+      <P Name="RotationSequenceAnglesUnits">deg</P>
+      <P Name="RotationMatrix">[1 0 0;0 1 0;0 0 1]</P>
+      <P Name="RotationMatrix_conf">compiletime</P>
+      <P Name="Quaternion">[1 0 0 0]</P>
+      <P Name="Quaternion_conf">compiletime</P>
+      <P Name="TranslationMethod">Cartesian</P>
+      <P Name="TranslationCartesianOffset">[-0.21527, 0.2144, -0.00062]</P>
+      <P Name="TranslationCartesianOffset_conf">compiletime</P>
+      <P Name="TranslationCartesianOffsetUnits">m</P>
+      <P Name="TranslationStandardAxis">+Z</P>
+      <P Name="TranslationStandardOffset">0</P>
+      <P Name="TranslationStandardOffset_conf">compiletime</P>
+      <P Name="TranslationStandardOffsetUnits">m</P>
+      <P Name="TranslationROffset">0</P>
+      <P Name="TranslationROffset_conf">compiletime</P>
+      <P Name="TranslationROffsetUnits">m</P>
+      <P Name="TranslationThetaOffset">0</P>
+      <P Name="TranslationThetaOffset_conf">compiletime</P>
+      <P Name="TranslationThetaOffsetUnits">deg</P>
+      <P Name="TranslationZOffset">0</P>
+      <P Name="TranslationZOffset_conf">compiletime</P>
+      <P Name="TranslationZOffsetUnits">m</P>
+    </InstanceData>
+    <PortProperties>
+      <Port Type="lconn" Index="1">
+        <P Name="PortId">B</P>
+      </Port>
+      <Port Type="rconn" Index="1">
+        <P Name="PortId">F</P>
+      </Port>
+    </PortProperties>
+  </Block>
+  <Block BlockType="Reference" Name="Rigid&#xA;Transform2" SID="87">
+    <PortCounts lconn="1" rconn="1"/>
+    <P Name="Position">[940, 360, 980, 400]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="BackgroundColor">automatic</P>
+    <P Name="LibraryVersion">26.21</P>
+    <P Name="SourceBlock">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="SourceType">Rigid
+Transform</P>
+    <InstanceData>
+      <P Name="LogSimulationData">off</P>
+      <P Name="SimscapeInstrumentationLogging">off</P>
+      <P Name="SimscapeInstrumentationVariables" Ref="bdmxdata:SimscapeInstrumentationVariables_87"/>
+      <P Name="RotationMethod">None</P>
+      <P Name="FollAlignAxisA">+X</P>
+      <P Name="BaseAlignAxisA">+Y</P>
+      <P Name="FollAlignAxisB">+Y</P>
+      <P Name="BaseAlignAxisB">+Z</P>
+      <P Name="RotationStandardAxis">+Z</P>
+      <P Name="RotationAngle">0</P>
+      <P Name="RotationAngle_conf">compiletime</P>
+      <P Name="RotationAngleUnits">deg</P>
+      <P Name="RotationArbitraryAxis">[0 0 1]</P>
+      <P Name="RotationArbitraryAxis_conf">compiletime</P>
+      <P Name="RotationSequenceAxes">FollowerAxes</P>
+      <P Name="RotationSequence">XYX</P>
+      <P Name="RotationSequenceAngles">[0 0 0]</P>
+      <P Name="RotationSequenceAngles_conf">compiletime</P>
+      <P Name="RotationSequenceAnglesUnits">deg</P>
+      <P Name="RotationMatrix">[1 0 0;0 1 0;0 0 1]</P>
+      <P Name="RotationMatrix_conf">compiletime</P>
+      <P Name="Quaternion">[1 0 0 0]</P>
+      <P Name="Quaternion_conf">compiletime</P>
+      <P Name="TranslationMethod">Cartesian</P>
+      <P Name="TranslationCartesianOffset">[0.21545, -0.2143, -0.00062]</P>
+      <P Name="TranslationCartesianOffset_conf">compiletime</P>
+      <P Name="TranslationCartesianOffsetUnits">m</P>
+      <P Name="TranslationStandardAxis">+Z</P>
+      <P Name="TranslationStandardOffset">0</P>
+      <P Name="TranslationStandardOffset_conf">compiletime</P>
+      <P Name="TranslationStandardOffsetUnits">m</P>
+      <P Name="TranslationROffset">0</P>
+      <P Name="TranslationROffset_conf">compiletime</P>
+      <P Name="TranslationROffsetUnits">m</P>
+      <P Name="TranslationThetaOffset">0</P>
+      <P Name="TranslationThetaOffset_conf">compiletime</P>
+      <P Name="TranslationThetaOffsetUnits">deg</P>
+      <P Name="TranslationZOffset">0</P>
+      <P Name="TranslationZOffset_conf">compiletime</P>
+      <P Name="TranslationZOffsetUnits">m</P>
+    </InstanceData>
+    <PortProperties>
+      <Port Type="lconn" Index="1">
+        <P Name="PortId">B</P>
+      </Port>
+      <Port Type="rconn" Index="1">
+        <P Name="PortId">F</P>
+      </Port>
+    </PortProperties>
+  </Block>
+  <Block BlockType="Reference" Name="Rigid&#xA;Transform3" SID="88">
+    <PortCounts lconn="1" rconn="1"/>
+    <P Name="Position">[940, 260, 980, 300]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="BackgroundColor">automatic</P>
+    <P Name="LibraryVersion">26.21</P>
+    <P Name="SourceBlock">sm_lib/Frames and
+Transforms/Rigid
+Transform</P>
+    <P Name="SourceType">Rigid
+Transform</P>
+    <InstanceData>
+      <P Name="LogSimulationData">off</P>
+      <P Name="SimscapeInstrumentationLogging">off</P>
+      <P Name="SimscapeInstrumentationVariables" Ref="bdmxdata:SimscapeInstrumentationVariables_88"/>
+      <P Name="RotationMethod">None</P>
+      <P Name="FollAlignAxisA">+X</P>
+      <P Name="BaseAlignAxisA">+Y</P>
+      <P Name="FollAlignAxisB">+Y</P>
+      <P Name="BaseAlignAxisB">+Z</P>
+      <P Name="RotationStandardAxis">+Z</P>
+      <P Name="RotationAngle">0</P>
+      <P Name="RotationAngle_conf">compiletime</P>
+      <P Name="RotationAngleUnits">deg</P>
+      <P Name="RotationArbitraryAxis">[0 0 1]</P>
+      <P Name="RotationArbitraryAxis_conf">compiletime</P>
+      <P Name="RotationSequenceAxes">FollowerAxes</P>
+      <P Name="RotationSequence">XYX</P>
+      <P Name="RotationSequenceAngles">[0 0 0]</P>
+      <P Name="RotationSequenceAngles_conf">compiletime</P>
+      <P Name="RotationSequenceAnglesUnits">deg</P>
+      <P Name="RotationMatrix">[1 0 0;0 1 0;0 0 1]</P>
+      <P Name="RotationMatrix_conf">compiletime</P>
+      <P Name="Quaternion">[1 0 0 0]</P>
+      <P Name="Quaternion_conf">compiletime</P>
+      <P Name="TranslationMethod">Cartesian</P>
+      <P Name="TranslationCartesianOffset">[-0.21539, -0.21508, -0.00062]</P>
+      <P Name="TranslationCartesianOffset_conf">compiletime</P>
+      <P Name="TranslationCartesianOffsetUnits">m</P>
+      <P Name="TranslationStandardAxis">+Z</P>
+      <P Name="TranslationStandardOffset">0</P>
+      <P Name="TranslationStandardOffset_conf">compiletime</P>
+      <P Name="TranslationStandardOffsetUnits">m</P>
+      <P Name="TranslationROffset">0</P>
+      <P Name="TranslationROffset_conf">compiletime</P>
+      <P Name="TranslationROffsetUnits">m</P>
+      <P Name="TranslationThetaOffset">0</P>
+      <P Name="TranslationThetaOffset_conf">compiletime</P>
+      <P Name="TranslationThetaOffsetUnits">deg</P>
+      <P Name="TranslationZOffset">0</P>
+      <P Name="TranslationZOffset_conf">compiletime</P>
+      <P Name="TranslationZOffsetUnits">m</P>
+    </InstanceData>
+    <PortProperties>
+      <Port Type="lconn" Index="1">
+        <P Name="PortId">B</P>
+      </Port>
+      <Port Type="rconn" Index="1">
+        <P Name="PortId">F</P>
+      </Port>
+    </PortProperties>
+  </Block>
+  <Block BlockType="Reference" Name="Simulink-PS&#xA;Converter" SID="41">
+    <PortCounts in="1" rconn="1"/>
+    <P Name="Position">[745, 87, 760, 103]</P>
+    <P Name="ZOrder">319</P>
+    <P Name="ShowName">off</P>
+    <P Name="LibraryVersion">13.0</P>
+    <P Name="SourceBlock">nesl_utility/Simulink-PS
+Converter</P>
+    <P Name="SourceType">Simulink-PS
+Converter</P>
+    <InstanceData>
+      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
+      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
+      <P Name="RTWMemSecDataConstants">Inherit from model</P>
+      <P Name="RTWMemSecDataInternal">Inherit from model</P>
+      <P Name="RTWMemSecDataParameters">Inherit from model</P>
+      <P Name="ContentPreviewEnabled">off</P>
+      <P Name="PhysicalDomain">network_engine_domain</P>
+      <P Name="SubClassName">ps_input</P>
+      <P Name="LeftPortType">input</P>
+      <P Name="RightPortType">output</P>
+      <P Name="PseudoPeriodic">off</P>
+      <P Name="Frequencies">[]</P>
+      <P Name="NoiseDistribution">none</P>
+      <P Name="NoiseParameters">[]</P>
+      <P Name="Unit">rad/s</P>
+      <P Name="AffineConversion">off</P>
+      <P Name="FilteringAndDerivatives">provide</P>
+      <P Name="SimscapeFilterOrder">1</P>
+      <P Name="InputFilterTimeConstant">0.001</P>
+      <P Name="UdotUserProvided">0</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Reference" Name="Simulink-PS&#xA;Converter1" SID="102">
+    <PortCounts in="1" rconn="1"/>
+    <P Name="Position">[745, 187, 760, 203]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="ShowName">off</P>
+    <P Name="LibraryVersion">13.0</P>
+    <P Name="SourceBlock">nesl_utility/Simulink-PS
+Converter</P>
+    <P Name="SourceType">Simulink-PS
+Converter</P>
+    <InstanceData>
+      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
+      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
+      <P Name="RTWMemSecDataConstants">Inherit from model</P>
+      <P Name="RTWMemSecDataInternal">Inherit from model</P>
+      <P Name="RTWMemSecDataParameters">Inherit from model</P>
+      <P Name="ContentPreviewEnabled">off</P>
+      <P Name="PhysicalDomain">network_engine_domain</P>
+      <P Name="SubClassName">ps_input</P>
+      <P Name="LeftPortType">input</P>
+      <P Name="RightPortType">output</P>
+      <P Name="PseudoPeriodic">off</P>
+      <P Name="Frequencies">[]</P>
+      <P Name="NoiseDistribution">none</P>
+      <P Name="NoiseParameters">[]</P>
+      <P Name="Unit">rad/s</P>
+      <P Name="AffineConversion">off</P>
+      <P Name="FilteringAndDerivatives">provide</P>
+      <P Name="SimscapeFilterOrder">1</P>
+      <P Name="InputFilterTimeConstant">0.001</P>
+      <P Name="UdotUserProvided">0</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Reference" Name="Simulink-PS&#xA;Converter2" SID="106">
+    <PortCounts in="1" rconn="1"/>
+    <P Name="Position">[745, 302, 760, 318]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="ShowName">off</P>
+    <P Name="LibraryVersion">13.0</P>
+    <P Name="SourceBlock">nesl_utility/Simulink-PS
+Converter</P>
+    <P Name="SourceType">Simulink-PS
+Converter</P>
+    <InstanceData>
+      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
+      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
+      <P Name="RTWMemSecDataConstants">Inherit from model</P>
+      <P Name="RTWMemSecDataInternal">Inherit from model</P>
+      <P Name="RTWMemSecDataParameters">Inherit from model</P>
+      <P Name="ContentPreviewEnabled">off</P>
+      <P Name="PhysicalDomain">network_engine_domain</P>
+      <P Name="SubClassName">ps_input</P>
+      <P Name="LeftPortType">input</P>
+      <P Name="RightPortType">output</P>
+      <P Name="PseudoPeriodic">off</P>
+      <P Name="Frequencies">[]</P>
+      <P Name="NoiseDistribution">none</P>
+      <P Name="NoiseParameters">[]</P>
+      <P Name="Unit">rad/s</P>
+      <P Name="AffineConversion">off</P>
+      <P Name="FilteringAndDerivatives">provide</P>
+      <P Name="SimscapeFilterOrder">1</P>
+      <P Name="InputFilterTimeConstant">0.001</P>
+      <P Name="UdotUserProvided">0</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Reference" Name="Simulink-PS&#xA;Converter3" SID="108">
+    <PortCounts in="1" rconn="1"/>
+    <P Name="Position">[745, 387, 760, 403]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="ShowName">off</P>
+    <P Name="LibraryVersion">13.0</P>
+    <P Name="SourceBlock">nesl_utility/Simulink-PS
+Converter</P>
+    <P Name="SourceType">Simulink-PS
+Converter</P>
+    <InstanceData>
+      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
+      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
+      <P Name="RTWMemSecDataConstants">Inherit from model</P>
+      <P Name="RTWMemSecDataInternal">Inherit from model</P>
+      <P Name="RTWMemSecDataParameters">Inherit from model</P>
+      <P Name="ContentPreviewEnabled">off</P>
+      <P Name="PhysicalDomain">network_engine_domain</P>
+      <P Name="SubClassName">ps_input</P>
+      <P Name="LeftPortType">input</P>
+      <P Name="RightPortType">output</P>
+      <P Name="PseudoPeriodic">off</P>
+      <P Name="Frequencies">[]</P>
+      <P Name="NoiseDistribution">none</P>
+      <P Name="NoiseParameters">[]</P>
+      <P Name="Unit">rad/s</P>
+      <P Name="AffineConversion">off</P>
+      <P Name="FilteringAndDerivatives">provide</P>
+      <P Name="SimscapeFilterOrder">1</P>
+      <P Name="InputFilterTimeConstant">0.001</P>
+      <P Name="UdotUserProvided">0</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Reference" Name="Solver&#xA;Configuration1" SID="47">
+    <PortCounts rconn="1"/>
+    <P Name="Position">[-100, 269, -55, 301]</P>
+    <P Name="ZOrder">329</P>
+    <P Name="LibraryVersion">13.0</P>
+    <P Name="SourceBlock">nesl_utility/Solver
+Configuration</P>
+    <P Name="SourceType">Solver
+Configuration</P>
+    <InstanceData>
+      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
+      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
+      <P Name="RTWMemSecDataConstants">Inherit from model</P>
+      <P Name="RTWMemSecDataInternal">Inherit from model</P>
+      <P Name="RTWMemSecDataParameters">Inherit from model</P>
+      <P Name="ContentPreviewEnabled">on</P>
+      <P Name="PhysicalDomain">network_engine_domain</P>
+      <P Name="SubClassName">solver</P>
+      <P Name="LeftPortType">input</P>
+      <P Name="RightPortType">generic</P>
+      <P Name="Tones">[]</P>
+      <P Name="Harmonics">[]</P>
+      <P Name="SimulateNoise">off</P>
+      <P Name="Profile">off</P>
+      <P Name="UseLocalSampling">off</P>
+      <P Name="EnableSwitchedLinearOptims">on</P>
+      <P Name="FrequencyDomain">off</P>
+      <P Name="UseCCode">off</P>
+      <P Name="RelTol">0.001</P>
+      <P Name="AbsTol">0.001</P>
+      <P Name="MinStep">1e-09</P>
+      <P Name="ToWorkspace">off</P>
+      <P Name="RevertToSquareIcSolve">off</P>
+      <P Name="NumHomotopyIterations">100</P>
+      <P Name="PhasorMode">off</P>
+      <P Name="PhasorModeNumHarmonics">1</P>
+      <P Name="ConsistencySolver">NEWTON_XTOL_AFTER_FTOL</P>
+      <P Name="CanonicalOrdering">CANONICAL</P>
+      <P Name="OptimizeIntermediates">OPTIMIZED</P>
+      <P Name="MulticoreSolverChoice">BACKWARD_EULER</P>
+      <P Name="IndexReductionMethod">DerivativeReplacement</P>
+      <P Name="DoDC">off</P>
+      <P Name="ResidualTolerance">1e-09</P>
+      <P Name="ConsistencyTolSource">GLOBAL</P>
+      <P Name="ConsistencyAbsTol">0.001</P>
+      <P Name="ConsistencyRelTol">0.001</P>
+      <P Name="ConsistencyTolFactor">0.001</P>
+      <P Name="UseLocalSolver">off</P>
+      <P Name="LocalSolverChoice">NE_BACKWARD_EULER_ADVANCER</P>
+      <P Name="ResolveIndetEquations">on</P>
+      <P Name="FunctionEvalNumThread">1</P>
+      <P Name="LocalSolverSampleTime">0.001</P>
+      <P Name="DoFixedCost">off</P>
+      <P Name="MaxNonlinIter">3</P>
+      <P Name="MaxModeIter">2</P>
+      <P Name="ComputeImpulses">off</P>
+      <P Name="ImpulseIterations">2</P>
+      <P Name="LinearAlgebra">auto</P>
+      <P Name="LinearAlgebraNumThread">0</P>
+      <P Name="EquationFormulation">NE_TIME_EF</P>
+      <P Name="DelaysMemoryBudget">1024</P>
+      <P Name="AutomaticFiltering">on</P>
+      <P Name="FilteringTimeConstant">0.001</P>
+      <P Name="PartitionStorageMethod">AS_NEEDED</P>
+      <P Name="PartitionMemoryBudget">1024</P>
+      <P Name="PartitionMethod">BALANCED</P>
+      <P Name="MultibodyUseLocalSolver">off</P>
+      <P Name="MultibodyLocalSolverChoice">ODE1</P>
+      <P Name="MultibodyLocalSolverSampleTime">0.001</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Sum" Name="Sum1" SID="10">
+    <PortCounts in="2" out="1"/>
+    <P Name="Position">[285, 270, 305, 290]</P>
+    <P Name="ZOrder">10</P>
+    <P Name="Inputs">|++</P>
+  </Block>
+  <Block BlockType="Reference" Name="World Frame1" SID="48">
+    <PortCounts rconn="1"/>
+    <P Name="Position">[-210, 350, -170, 390]</P>
+    <P Name="ZOrder">330</P>
+    <P Name="HideAutomaticName">off</P>
+    <P Name="LibraryVersion">26.21</P>
+    <P Name="SourceBlock">sm_lib/Frames and
+Transforms/World Frame</P>
+    <P Name="SourceType">World Frame</P>
+    <InstanceData>
+      <P Name="LogSimulationData">off</P>
+      <P Name="SimscapeInstrumentationLogging">off</P>
+      <P Name="SimscapeInstrumentationVariables" Ref="bdmxdata:SimscapeInstrumentationVariables_48"/>
+    </InstanceData>
+    <PortProperties>
+      <Port Type="rconn" Index="1">
+        <P Name="PortId">W</P>
+      </Port>
+    </PortProperties>
+  </Block>
+  <Block BlockType="Reference" Name="back left" SID="85">
+    <PortCounts lconn="2" rconn="1"/>
+    <P Name="Position">[820, 220, 860, 260]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="BackgroundColor">automatic</P>
+    <P Name="LibraryVersion">26.21</P>
+    <P Name="SourceBlock">sm_lib/Forces and
+Torques/External Force
+and Torque</P>
+    <P Name="SourceType">External Force
+and Torque</P>
+    <InstanceData>
+      <P Name="LogSimulationData">off</P>
+      <P Name="SimscapeInstrumentationLogging">off</P>
+      <P Name="SimscapeInstrumentationVariables" Ref="bdmxdata:SimscapeInstrumentationVariables_85"/>
+      <P Name="EnableForceX">off</P>
+      <P Name="EnableForceY">off</P>
+      <P Name="EnableForceZ">on</P>
+      <P Name="EnableForce">off</P>
+      <P Name="ForceResolutionFrame">AttachedFrame</P>
+      <P Name="EnableTorqueX">off</P>
+      <P Name="EnableTorqueY">off</P>
+      <P Name="EnableTorqueZ">on</P>
+      <P Name="EnableTorque">off</P>
+      <P Name="TorqueResolutionFrame">AttachedFrame</P>
+    </InstanceData>
+    <PortProperties>
+      <Port Type="lconn" Index="1">
+        <P Name="PortId">fz_in</P>
+      </Port>
+      <Port Type="lconn" Index="2">
+        <P Name="PortId">tz_in</P>
+      </Port>
+      <Port Type="rconn" Index="1">
+        <P Name="PortId">F</P>
+      </Port>
+    </PortProperties>
+  </Block>
+  <Block BlockType="Reference" Name="back right" SID="86">
+    <PortCounts lconn="2" rconn="1"/>
+    <P Name="Position">[820, 305, 860, 345]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="BackgroundColor">automatic</P>
+    <P Name="LibraryVersion">26.21</P>
+    <P Name="SourceBlock">sm_lib/Forces and
+Torques/External Force
+and Torque</P>
+    <P Name="SourceType">External Force
+and Torque</P>
+    <InstanceData>
+      <P Name="LogSimulationData">off</P>
+      <P Name="SimscapeInstrumentationLogging">off</P>
+      <P Name="SimscapeInstrumentationVariables" Ref="bdmxdata:SimscapeInstrumentationVariables_86"/>
+      <P Name="EnableForceX">off</P>
+      <P Name="EnableForceY">off</P>
+      <P Name="EnableForceZ">on</P>
+      <P Name="EnableForce">off</P>
+      <P Name="ForceResolutionFrame">AttachedFrame</P>
+      <P Name="EnableTorqueX">off</P>
+      <P Name="EnableTorqueY">off</P>
+      <P Name="EnableTorqueZ">on</P>
+      <P Name="EnableTorque">off</P>
+      <P Name="TorqueResolutionFrame">AttachedFrame</P>
+    </InstanceData>
+    <PortProperties>
+      <Port Type="lconn" Index="1">
+        <P Name="PortId">fz_in</P>
+      </Port>
+      <Port Type="lconn" Index="2">
+        <P Name="PortId">tz_in</P>
+      </Port>
+      <Port Type="rconn" Index="1">
+        <P Name="PortId">F</P>
+      </Port>
+    </PortProperties>
+  </Block>
+  <Block BlockType="Reference" Name="front left  " SID="83">
+    <PortCounts lconn="2" rconn="1"/>
+    <P Name="Position">[820, 80, 860, 120]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="BackgroundColor">automatic</P>
+    <P Name="LibraryVersion">26.21</P>
+    <P Name="SourceBlock">sm_lib/Forces and
+Torques/External Force
+and Torque</P>
+    <P Name="SourceType">External Force
+and Torque</P>
+    <InstanceData>
+      <P Name="LogSimulationData">off</P>
+      <P Name="SimscapeInstrumentationLogging">off</P>
+      <P Name="SimscapeInstrumentationVariables" Ref="bdmxdata:SimscapeInstrumentationVariables_83"/>
+      <P Name="EnableForceX">off</P>
+      <P Name="EnableForceY">off</P>
+      <P Name="EnableForceZ">on</P>
+      <P Name="EnableForce">off</P>
+      <P Name="ForceResolutionFrame">AttachedFrame</P>
+      <P Name="EnableTorqueX">off</P>
+      <P Name="EnableTorqueY">off</P>
+      <P Name="EnableTorqueZ">on</P>
+      <P Name="EnableTorque">off</P>
+      <P Name="TorqueResolutionFrame">AttachedFrame</P>
+    </InstanceData>
+    <PortProperties>
+      <Port Type="lconn" Index="1">
+        <P Name="PortId">fz_in</P>
+      </Port>
+      <Port Type="lconn" Index="2">
+        <P Name="PortId">tz_in</P>
+      </Port>
+      <Port Type="rconn" Index="1">
+        <P Name="PortId">F</P>
+      </Port>
+    </PortProperties>
+  </Block>
+  <Block BlockType="Reference" Name="front right" SID="39">
+    <PortCounts lconn="2" rconn="1"/>
+    <P Name="Position">[820, 150, 860, 190]</P>
+    <P Name="ZOrder">325</P>
+    <P Name="BackgroundColor">automatic</P>
+    <P Name="LibraryVersion">26.21</P>
+    <P Name="SourceBlock">sm_lib/Forces and
+Torques/External Force
+and Torque</P>
+    <P Name="SourceType">External Force
+and Torque</P>
+    <InstanceData>
+      <P Name="LogSimulationData">off</P>
+      <P Name="SimscapeInstrumentationLogging">off</P>
+      <P Name="SimscapeInstrumentationVariables" Ref="bdmxdata:SimscapeInstrumentationVariables_39"/>
+      <P Name="EnableForceX">off</P>
+      <P Name="EnableForceY">off</P>
+      <P Name="EnableForceZ">on</P>
+      <P Name="EnableForce">off</P>
+      <P Name="ForceResolutionFrame">AttachedFrame</P>
+      <P Name="EnableTorqueX">off</P>
+      <P Name="EnableTorqueY">off</P>
+      <P Name="EnableTorqueZ">on</P>
+      <P Name="EnableTorque">off</P>
+      <P Name="TorqueResolutionFrame">AttachedFrame</P>
+    </InstanceData>
+    <PortProperties>
+      <Port Type="lconn" Index="1">
+        <P Name="PortId">fz_in</P>
+      </Port>
+      <Port Type="lconn" Index="2">
+        <P Name="PortId">tz_in</P>
+      </Port>
+      <Port Type="rconn" Index="1">
+        <P Name="PortId">F</P>
+      </Port>
+    </PortProperties>
+  </Block>
+  <Block BlockType="SubSystem" Name="ground" SID="150">
+    <PortCounts lconn="1" rconn="1"/>
+    <P Name="Position">[-350, 423, -245, 457]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="ContentPreviewEnabled">on</P>
+    <System Ref="system_150"/>
+  </Block>
+  <Block BlockType="Constant" Name="z_ref" SID="77">
+    <P Name="Position">[30, 255, 60, 285]</P>
+    <P Name="ZOrder">100000</P>
+    <P Name="Value">2</P>
+    <P Name="OutDataTypeStr">double</P>
+    <P Name="SampleTime">0.01</P>
+  </Block>
+  <Line>
+    <P Name="ZOrder">909</P>
+    <P Name="Src">231#out:1</P>
+    <P Name="Dst">10#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">5</P>
+    <P Name="Src">14#out:1</P>
+    <P Name="Points">[60, 0]</P>
+    <P Name="Dst">10#in:2</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">905</P>
+    <P Name="Src">77#out:1</P>
+    <P Name="Dst">231#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">43</P>
+    <P Name="Src">46#out:1</P>
+    <P Name="Points">[5, 0; 0, -80]</P>
+    <P Name="Dst">231#in:2</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">78</P>
+    <P Name="Src">46#lconn:1</P>
+    <P Name="Points">[-70, 0; 0, 10]</P>
+    <P Name="Dst">37#rconn:2</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">61</P>
+    <P Name="Src">48#rconn:1</P>
+    <P Name="Points">[0, 0]</P>
+    <Branch ConnectType="DEST_DEST">
+      <P Name="Src">150#rconn:1</P>
+      <P Name="Points">[75, 0; 0, -70]</P>
+    </Branch>
+    <Branch ConnectType="DEST_SRC">
+      <P Name="Points">[9, 0; 0, 10]</P>
+      <Branch ConnectType="DEST_DEST">
+        <P Name="Src">40#rconn:1</P>
+        <P Name="Points">[9, 0; 0, -34; -70, 0; 0, -61]</P>
+      </Branch>
+      <Branch ConnectType="DEST_SRC">
+        <P Name="Dst">37#lconn:1</P>
+      </Branch>
+    </Branch>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">322</P>
+    <P Name="Src">88#rconn:1</P>
+    <P Name="Points">[9, 0; 0, -40]</P>
+    <P Name="Dst">85#rconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">323</P>
+    <P Name="Src">87#rconn:1</P>
+    <P Name="Points">[9, 0; 0, -55]</P>
+    <P Name="Dst">86#rconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">384</P>
+    <P Name="Src">41#rconn:1</P>
+    <P Name="Points">[-10, 0]</P>
+    <P Name="Dst">98#rconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">387</P>
+    <P Name="Src">102#rconn:1</P>
+    <P Name="Points">[-10, 0]</P>
+    <P Name="Dst">109#rconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">390</P>
+    <P Name="Src">106#rconn:1</P>
+    <P Name="Points">[-10, 0]</P>
+    <P Name="Dst">110#rconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">394</P>
+    <P Name="Src">111#rconn:1</P>
+    <P Name="Points">[10, 0]</P>
+    <P Name="Dst">108#rconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">423</P>
+    <P Name="Src">150#lconn:1</P>
+    <P Name="Points">[-9, 0; 0, -140]</P>
+    <P Name="Dst">68#lconn:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">976</P>
+    <P Name="Src">173#out:1</P>
+    <P Name="Points">[41, 0; 0, 25]</P>
+    <P Name="Dst">169#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">553</P>
+    <P Name="Src">175#out:1</P>
+    <P Name="Dst">176#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">555</P>
+    <P Name="Src">176#out:1</P>
+    <P Name="Dst">177#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">556</P>
+    <P Name="Src">179#out:1</P>
+    <P Name="Dst">180#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">557</P>
+    <P Name="Src">178#out:1</P>
+    <P Name="Dst">179#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">1011</P>
+    <P Name="Src">169#out:1</P>
+    <P Name="Points">[11, 0; 0, -265]</P>
+    <P Name="Dst">176#in:2</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">1012</P>
+    <P Name="Src">169#out:2</P>
+    <P Name="Points">[3, 0; 0, -220]</P>
+    <P Name="Dst">179#in:2</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">561</P>
+    <P Name="Src">10#out:1</P>
+    <P Name="Points">[35, 0; 0, -130]</P>
+    <P Name="Dst">181#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">1002</P>
+    <P Name="Src">177#out:1</P>
+    <P Name="Points">[63, 0; 0, 25]</P>
+    <P Name="Dst">181#in:2</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">1003</P>
+    <P Name="Src">180#out:1</P>
+    <P Name="Points">[4, 0; 0, -15]</P>
+    <P Name="Dst">181#in:3</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">970</P>
+    <P Name="Src">173#lconn:1</P>
+    <P Name="Points">[-8, 0; 0, -5]</P>
+    <P Name="Dst">37#rconn:3</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">587</P>
+    <P Name="Src">84#rconn:1</P>
+    <P Name="Points">[9, 0; 0, -25]</P>
+    <P Name="Dst">83#rconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">588</P>
+    <P Name="Src">78#rconn:1</P>
+    <P Name="Points">[9, 0; 0, -25]</P>
+    <P Name="Dst">39#rconn:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">589</P>
+    <P Name="Src">184#out:1</P>
+    <P Name="Dst">185#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">590</P>
+    <P Name="Src">185#out:1</P>
+    <P Name="Dst">186#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">980</P>
+    <P Name="Src">169#out:3</P>
+    <P Name="Points">[32, 0; 0, -117; -59, 0; 0, -238]</P>
+    <P Name="Dst">185#in:2</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">593</P>
+    <P Name="Src">186#out:1</P>
+    <P Name="Points">[13, 0; 0, 125]</P>
+    <P Name="Dst">181#in:4</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">349</P>
+    <P Name="Points">[-55, 329; 25, 0]</P>
+    <Branch ConnectType="SRC_SRC">
+      <P Name="Points">[0, 31]</P>
+      <P Name="Dst">37#rconn:1</P>
+    </Branch>
+    <Branch ConnectType="SRC_SRC">
+      <P Name="Points">[-68, 0; 0, -29]</P>
+      <P Name="Dst">68#rconn:1</P>
+    </Branch>
+    <Branch ConnectType="DEST_SRC">
+      <P Name="Points">[33, 0; 0, -308; 912, 0; 0, 104]</P>
+      <Branch ConnectType="DEST_SRC">
+        <P Name="Points">[0, 70]</P>
+        <Branch ConnectType="DEST_DEST">
+          <P Name="Points">[915, 280; 0, -85]</P>
+          <Branch ConnectType="SRC_DEST">
+            <P Name="Src">87#lconn:1</P>
+            <P Name="Points">[-10, 0; 0, -100]</P>
+          </Branch>
+          <Branch ConnectType="SRC_DEST">
+            <P Name="Src">88#lconn:1</P>
+            <P Name="Points">[-10, 0]</P>
+          </Branch>
+        </Branch>
+        <Branch ConnectType="DEST_DEST">
+          <P Name="Src">78#lconn:1</P>
+          <P Name="Points">[-10, 0]</P>
+        </Branch>
+      </Branch>
+      <Branch ConnectType="DEST_DEST">
+        <P Name="Src">84#lconn:1</P>
+        <P Name="Points">[-10, 0]</P>
+      </Branch>
+    </Branch>
+    <Branch ConnectType="DEST_SRC">
+      <P Name="Points">[0, -44]</P>
+      <P Name="Dst">47#rconn:1</P>
+    </Branch>
+  </Line>
+  <Line>
+    <P Name="ZOrder">793</P>
+    <P Name="Src">49#out:1</P>
+    <P Name="Dst">41#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">794</P>
+    <P Name="Src">101#out:1</P>
+    <P Name="Dst">102#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">795</P>
+    <P Name="Src">105#out:1</P>
+    <P Name="Dst">106#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">796</P>
+    <P Name="Src">107#out:1</P>
+    <P Name="Dst">108#in:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">889</P>
+    <P Name="Src">98#lconn:2</P>
+    <P Name="Points">[-9, 0; 0, 23; 127, 0; 0, -83]</P>
+    <P Name="Dst">83#lconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">886</P>
+    <P Name="Src">109#lconn:2</P>
+    <P Name="Points">[-9, 0; 0, -75; 92, 0; 0, -20]</P>
+    <P Name="Dst">39#lconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">887</P>
+    <P Name="Src">110#lconn:2</P>
+    <P Name="Points">[-9, 0; 0, -79; 124, 0; 0, -56]</P>
+    <P Name="Dst">85#lconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">888</P>
+    <P Name="Src">111#lconn:2</P>
+    <P Name="Points">[-9, 0; 0, 39; 132, 0; 0, -179]</P>
+    <P Name="Dst">86#lconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">890</P>
+    <P Name="Src">98#lconn:1</P>
+    <P Name="Points">[-9, 0; 0, -55; 113, 0; 0, 45]</P>
+    <P Name="Dst">83#lconn:2</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">891</P>
+    <P Name="Src">109#lconn:1</P>
+    <P Name="Points">[-33, 0; 0, 53; 141, 0; 0, -98]</P>
+    <P Name="Dst">39#lconn:2</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">894</P>
+    <P Name="Src">110#lconn:1</P>
+    <P Name="Points">[-33, 0; 0, -41; 125, 0; 0, -44]</P>
+    <P Name="Dst">85#lconn:2</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">895</P>
+    <P Name="Src">111#lconn:1</P>
+    <P Name="Points">[-33, 0; 0, 57; 126, 0; 0, -147]</P>
+    <P Name="Dst">86#lconn:2</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">914</P>
+    <P Name="Src">181#out:1</P>
+    <P Name="Points">[23, 0; 0, -55]</P>
+    <P Name="Dst">49#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">915</P>
+    <P Name="Src">181#out:2</P>
+    <P Name="Points">[32, 0; 0, 25]</P>
+    <P Name="Dst">101#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">916</P>
+    <P Name="Src">181#out:3</P>
+    <P Name="Points">[24, 0; 0, 120]</P>
+    <P Name="Dst">105#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">917</P>
+    <P Name="Src">181#out:4</P>
+    <P Name="Points">[13, 0; 0, 185]</P>
+    <P Name="Dst">107#in:1</P>
+  </Line>
+</System>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<System>
+  <P Name="SIDHighWatermark">33</P>
+  <Block BlockType="Inport" Name="rpm_col" SID="181::1">
+    <P Name="Position">[20, 101, 40, 119]</P>
+    <P Name="ZOrder">-1</P>
+  </Block>
+  <Block BlockType="Inport" Name="u_roll" SID="181::28">
+    <P Name="Position">[20, 136, 40, 154]</P>
+    <P Name="ZOrder">19</P>
+    <P Name="Port">2</P>
+  </Block>
+  <Block BlockType="Inport" Name="u_pitch" SID="181::29">
+    <P Name="Position">[20, 171, 40, 189]</P>
+    <P Name="ZOrder">20</P>
+    <P Name="Port">3</P>
+  </Block>
+  <Block BlockType="Inport" Name="u_yaw" SID="181::33">
+    <P Name="Position">[20, 206, 40, 224]</P>
+    <P Name="ZOrder">24</P>
+    <P Name="Port">4</P>
+  </Block>
+  <Block BlockType="Demux" Name=" Demux " SID="181::26">
+    <PortCounts in="1" out="1"/>
+    <P Name="Position">[270, 280, 320, 320]</P>
+    <P Name="ZOrder">17</P>
+    <P Name="Outputs">1</P>
+  </Block>
+  <Block BlockType="S-Function" Name=" SFunction " SID="181::25">
+    <P Name="Tag">Stateflow S-Function 1</P>
+    <PortCounts in="4" out="5"/>
+    <P Name="Position">[180, 105, 230, 225]</P>
+    <P Name="ZOrder">16</P>
+    <P Name="FunctionName">sf_sfun</P>
+    <P Name="PortCounts">[4 5]</P>
+    <P Name="SFunctionDeploymentMode">off</P>
+    <P Name="EnableBusSupport">off</P>
+    <P Name="SFcnIsStateOwnerBlock">off</P>
+    <PortProperties>
+      <Port Type="out" Index="2">
+        <P Name="Name">rpm_M1</P>
+      </Port>
+      <Port Type="out" Index="3">
+        <P Name="Name">rpm_M2</P>
+      </Port>
+      <Port Type="out" Index="4">
+        <P Name="Name">rpm_M3</P>
+      </Port>
+      <Port Type="out" Index="5">
+        <P Name="Name">rpm_M4</P>
+      </Port>
+    </PortProperties>
+  </Block>
+  <Block BlockType="Terminator" Name=" Terminator " SID="181::27">
+    <P Name="Position">[460, 291, 480, 309]</P>
+    <P Name="ZOrder">18</P>
+  </Block>
+  <Block BlockType="Outport" Name="rpm_M1" SID="181::5">
+    <P Name="Position">[460, 101, 480, 119]</P>
+    <P Name="ZOrder">-5</P>
+  </Block>
+  <Block BlockType="Outport" Name="rpm_M2" SID="181::30">
+    <P Name="Position">[460, 136, 480, 154]</P>
+    <P Name="ZOrder">21</P>
+    <P Name="Port">2</P>
+  </Block>
+  <Block BlockType="Outport" Name="rpm_M3" SID="181::31">
+    <P Name="Position">[460, 171, 480, 189]</P>
+    <P Name="ZOrder">22</P>
+    <P Name="Port">3</P>
+  </Block>
+  <Block BlockType="Outport" Name="rpm_M4" SID="181::32">
+    <P Name="Position">[460, 206, 480, 224]</P>
+    <P Name="ZOrder">23</P>
+    <P Name="Port">4</P>
+  </Block>
+  <Line>
+    <P Name="ZOrder">44</P>
+    <P Name="Src">181::1#out:1</P>
+    <P Name="Dst">181::25#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">45</P>
+    <P Name="Src">181::28#out:1</P>
+    <P Name="Dst">181::25#in:2</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">46</P>
+    <P Name="Src">181::29#out:1</P>
+    <P Name="Dst">181::25#in:3</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">47</P>
+    <P Name="Src">181::33#out:1</P>
+    <P Name="Dst">181::25#in:4</P>
+  </Line>
+  <Line>
+    <P Name="Name">rpm_M1</P>
+    <P Name="ZOrder">48</P>
+    <P Name="Labels">[0, 0]</P>
+    <P Name="Src">181::25#out:2</P>
+    <P Name="Dst">181::5#in:1</P>
+  </Line>
+  <Line>
+    <P Name="Name">rpm_M2</P>
+    <P Name="ZOrder">49</P>
+    <P Name="Labels">[0, 0]</P>
+    <P Name="Src">181::25#out:3</P>
+    <P Name="Dst">181::30#in:1</P>
+  </Line>
+  <Line>
+    <P Name="Name">rpm_M3</P>
+    <P Name="ZOrder">50</P>
+    <P Name="Labels">[0, 0]</P>
+    <P Name="Src">181::25#out:4</P>
+    <P Name="Dst">181::31#in:1</P>
+  </Line>
+  <Line>
+    <P Name="Name">rpm_M4</P>
+    <P Name="ZOrder">51</P>
+    <P Name="Labels">[0, 0]</P>
+    <P Name="Src">181::25#out:5</P>
+    <P Name="Dst">181::32#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">52</P>
+    <P Name="Src">181::26#out:1</P>
+    <P Name="Dst">181::27#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">53</P>
+    <P Name="Src">181::25#out:1</P>
+    <P Name="Dst">181::26#in:1</P>
+  </Line>
+</System>
